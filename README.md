@@ -33,13 +33,23 @@ Muestra los números múltiplos de 5 de 0 a 100 utilizando un bucle do-while.
 Muestra los números del 320 al 160, contando de 20 en 20 hacia atrás utilizando
 un bucle for.
 
+```
+320, 300, 280, 260, 240, 220, 200, 180, 160, 
+```
+
 ### Ejercicio 5
 
 Muestra los números del 320 al 160, contando de 20 en 20 hacia atrás utilizando un bucle while.
+```
+320, 300, 280, 260, 240, 220, 200, 180, 160, 
+```
 
 ### Ejercicio 6
 
 Muestra los números del 320 al 160, contando de 20 en 20 utilizando un bucle do-while.
+```
+320, 300, 280, 260, 240, 220, 200, 180, 160, 
+```
 
 ### Ejercicio 7
 
