@@ -190,6 +190,14 @@ Has introducido una potencia no válida
 
 Escribe un programa que diga si un número introducido por teclado es o no primo. Un número primo es aquel que sólo es divisible entre él mismo y la unidad.
 
+```
+Introduce un número entero mayor que 2: 23
+23 es un número primo
+
+Introduce un número entero mayor que 2: 25
+25 no es un número primo
+```
+
 ### Ejercicio 17
 
 Realiza un programa que sume los 100 números siguientes a un número entero y positivo introducido por teclado. Se debe comprobar que el dato introducido es correcto (que es un número positivo).
