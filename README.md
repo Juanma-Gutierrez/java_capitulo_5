@@ -104,6 +104,15 @@ Has introducido un número no válido
 
 Escribe un programa que calcule la media de un conjunto de números positivos introducidos por teclado. A priori, el programa no sabe cuántos números se introducirán. El usuario indicará que ha terminado de introducir los datos cuando meta un número negativo.
 
+```
+Introduce número: 1
+Introduce número: 2
+Introduce número: 3
+Introduce número: 4
+Introduce número: -1
+La media de los números introducidos es: 2,50
+```
+
 ### Ejercicio 11
 
 Escribe un programa que muestre en tres columnas, el cuadrado y el cubo de los 5 primeros números enteros a partir de uno que se introduce por teclado.
