@@ -218,7 +218,6 @@ Has introducido un número no válido
 Escribe un programa que obtenga los números enteros comprendidos entre dos números introducidos por teclado y validados como distintos, el programa debe empezar por el menor de los enteros introducidos e ir incrementando de 7 en 7.
 
 ```
-
 Introduce el primer número: 100
 Introduce el segundo número: 5
 5, 12, 19, 26, 33, 40, 47, 54, 61, 68, 75, 82, 89, 96,
@@ -229,26 +228,25 @@ Introduce el segundo número: 5
 
 Realiza un programa que pinte una pirámide por pantalla. La altura se debe pedir por teclado. El carácter con el que se pinta la pirámide también se debe pedir por teclado.
 
-´´´
+```
 Introduce la altura de la pirámide: 5
 Introduce el caracter a utilizar: @
-@
-@@@
-@@@@@
-@@@@@@@
+    @
+   @@@
+  @@@@@
+ @@@@@@@
 @@@@@@@@@
 
 Introduce la altura de la pirámide: 8
 Introduce el caracter a utilizar: X
-X
-XXX
-XXXXX
-XXXXXXX
-XXXXXXXXX
-XXXXXXXXXXX
-XXXXXXXXXXXXX
+       X
+      XXX
+     XXXXX
+    XXXXXXX
+   XXXXXXXXX
+  XXXXXXXXXXX
+ XXXXXXXXXXXXX
 XXXXXXXXXXXXXXX
-
 ```
 
 ### Ejercicio 20
@@ -1440,6 +1438,8 @@ Introduzca la altura de la pirámide maya: 8
 ---
 
 ---
+
+```
 
 ```
 
