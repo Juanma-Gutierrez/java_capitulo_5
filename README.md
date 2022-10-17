@@ -211,6 +211,7 @@ La suma de los 100 primeros números a partir del 5000 es: 504950
 
 Introduce un número entero y positivo: -1
 Has introducido un número no válido
+```
 
 ### Ejercicio 18
 
@@ -231,22 +232,23 @@ Realiza un programa que pinte una pirámide por pantalla. La altura se debe pedi
 ´´´
 Introduce la altura de la pirámide: 5
 Introduce el caracter a utilizar: @
-    @
-   @@@
-  @@@@@
- @@@@@@@
+@
+@@@
+@@@@@
+@@@@@@@
 @@@@@@@@@
 
 Introduce la altura de la pirámide: 8
 Introduce el caracter a utilizar: X
-       X
-      XXX
-     XXXXX
-    XXXXXXX
-   XXXXXXXXX
-  XXXXXXXXXXX
- XXXXXXXXXXXXX
+X
+XXX
+XXXXX
+XXXXXXX
+XXXXXXXXX
+XXXXXXXXXXX
+XXXXXXXXXXXXX
 XXXXXXXXXXXXXXX
+
 ```
 
 ### Ejercicio 20
@@ -836,7 +838,7 @@ Introduzca la altura de la figura: 8
 
 ---
 
--         *
+-           *
 -   -
 -   -
 -   -
@@ -924,7 +926,7 @@ Introduzca la altura de la figura: 8
 
 ---
 
--         *
+-           *
 -   -
 -   -
 -   -
@@ -1257,23 +1259,23 @@ Ejemplo 1:
 Introduzca la altura de la A (un número mayor o igual a 3): 7
 Introduzca la fila del palito horizontal (entre 2 y 6): 5 \* \* \* \* \*
 
--         *
-
----
-
--             *
--               *
-
-Ejemplo 2:
-Introduzca la altura de la A (un número mayor o igual a 3): 7
-Introduzca la fila del palito horizontal (entre 2 y 6): 6 \* \* \* \* \*
-
--         *
 -           *
 
 ---
 
 -               *
+-                 *
+
+Ejemplo 2:
+Introduzca la altura de la A (un número mayor o igual a 3): 7
+Introduzca la fila del palito horizontal (entre 2 y 6): 6 \* \* \* \* \*
+
+-           *
+-             *
+
+---
+
+-                 *
 
 Ejemplo 3:
 Introduzca la altura de la A (un número mayor o igual a 3): 7
@@ -1291,7 +1293,7 @@ Introduzca la fila del palito horizontal (entre 2 y 3): 2
 -   ***
 
 -   -
--         *
+-           *
 
 Ejemplo 1:
 Introduzca la altura de la A (un número mayor o igual a 3): 5
@@ -1302,7 +1304,7 @@ Introduzca la fila del palito horizontal (entre 2 y 4): 4 \*
 
 ---
 
--           *
+-             *
 
 ```
 
@@ -1315,20 +1317,20 @@ La Guardia Civil de Tráfico nos ha encargado un programa que pinte una señal p
 Ejemplo 1:
 Por favor, introduzca la altura de la figura: 7
 
--         *
--         *
--         *
--         *
--         *
--         *
--         *
+-           *
+-           *
+-           *
+-           *
+-           *
+-           *
+-           *
 
 Ejemplo 2:
 Por favor, introduzca la altura de la figura: 3
 
--         *
--         *
--         *
+-           *
+-           *
+-           *
 
 Ejemplo 3:
 Por favor, introduzca la altura de la figura: 4
@@ -1438,6 +1440,8 @@ Introduzca la altura de la pirámide maya: 8
 ---
 
 ---
+
+```
 
 ```
 
