@@ -17,7 +17,7 @@ Muestra los números múltiplos de 5 de 0 a 100 utilizando un bucle for.
 Muestra los números múltiplos de 5 de 0 a 100 utilizando un bucle while.
 
 ```
-0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 
+0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100,
 ```
 
 ### Ejercicio 3
@@ -25,7 +25,7 @@ Muestra los números múltiplos de 5 de 0 a 100 utilizando un bucle while.
 Muestra los números múltiplos de 5 de 0 a 100 utilizando un bucle do-while.
 
 ```
-0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100, 
+0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100,
 ```
 
 ### Ejercicio 4
@@ -34,26 +34,35 @@ Muestra los números del 320 al 160, contando de 20 en 20 hacia atrás utilizand
 un bucle for.
 
 ```
-320, 300, 280, 260, 240, 220, 200, 180, 160, 
+320, 300, 280, 260, 240, 220, 200, 180, 160,
 ```
 
 ### Ejercicio 5
 
 Muestra los números del 320 al 160, contando de 20 en 20 hacia atrás utilizando un bucle while.
+
 ```
-320, 300, 280, 260, 240, 220, 200, 180, 160, 
+320, 300, 280, 260, 240, 220, 200, 180, 160,
 ```
 
 ### Ejercicio 6
 
 Muestra los números del 320 al 160, contando de 20 en 20 utilizando un bucle do-while.
+
 ```
-320, 300, 280, 260, 240, 220, 200, 180, 160, 
+320, 300, 280, 260, 240, 220, 200, 180, 160,
 ```
 
 ### Ejercicio 7
 
-Realiza el control de acceso a una caja fuerte. La combinación será un número de 4 cifras. El programa nos pedirá la combinación para abrirla. Si no acertamos, se nos mostrará el mensaje “Lo siento, esa no es la combinación” y si acertamos se nos dirá “La caja fuerte se ha abierto satisfactoriamente”. Tendremos cuatro oportunidades para abrir la caja fuerte. Bucles 60
+Realiza el control de acceso a una caja fuerte. La combinación será un número de 4 cifras. El programa nos pedirá la combinación para abrirla. Si no acertamos, se nos mostrará el mensaje “Lo siento, esa no es la combinación” y si acertamos se nos dirá “La caja fuerte se ha abierto satisfactoriamente”. Tendremos cuatro oportunidades para abrir la caja fuerte.
+
+```
+Introduce la combinación (intento nº 1/4): 1111
+Lo siento, esa no es la combinación
+Introduce la combinación (intento nº 2/4): 1234
+La caja fuerte se ha abierto satisfactoriamente
+```
 
 ### Ejercicio 8
 
