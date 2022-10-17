@@ -8,6 +8,10 @@ Este libro está a la venta en https://leanpub.com/aprendejava
 
 Muestra los números múltiplos de 5 de 0 a 100 utilizando un bucle for.
 
+```
+0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100,
+```
+
 ### Ejercicio 2
 
 Muestra los números múltiplos de 5 de 0 a 100 utilizando un bucle while.
@@ -958,7 +962,8 @@ Introduzca la fila del palito horizontal (entre 2 y 4): 4
 ```
 
 ### Ejercicio 66
-La Guardia Civil de Tráfico nos ha encargado un programa que pinte una señal para desviar el tráfico hacia la derecha. La señal es una doble flecha con el vértice apuntando a la derecha. Se pide al usuario la altura de la figura, que debe ser un número impar mayor o igual que 3. La distancia entre cada flecha de asteriscos es siempre de 4 espacios. Si la altura introducida por el usuario no es un número impar mayor o igual que 3, el programa debe mostrar un mensaje de error. 
+
+La Guardia Civil de Tráfico nos ha encargado un programa que pinte una señal para desviar el tráfico hacia la derecha. La señal es una doble flecha con el vértice apuntando a la derecha. Se pide al usuario la altura de la figura, que debe ser un número impar mayor o igual que 3. La distancia entre cada flecha de asteriscos es siempre de 4 espacios. Si la altura introducida por el usuario no es un número impar mayor o igual que 3, el programa debe mostrar un mensaje de error.
 
 ```
 Ejemplo 1:
@@ -983,6 +988,7 @@ La altura no es correcta, debe ser un número impar mayor o igual que 3.
 ```
 
 ### Ejercicio 67
+
 Realiza un programa que pinte una escalera que va descendiendo de izquierda a derecha. El programa pedirá el número de escalones y la altura de cada escalón. La anchura de los escalones siempre es la misma: 4 asteriscos.
 
 ```
@@ -1028,7 +1034,7 @@ Dislocando el 870958422 sale el 961849533.
 Ejemplo 3:
 Por favor, introduzca un número: 137
 Dislocando el 137 sale el 26
-```` 
+```
 
 ### Ejercicio 69
 
