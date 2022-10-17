@@ -228,6 +228,27 @@ Introduce el segundo número: 5
 
 Realiza un programa que pinte una pirámide por pantalla. La altura se debe pedir por teclado. El carácter con el que se pinta la pirámide también se debe pedir por teclado.
 
+´´´
+Introduce la altura de la pirámide: 5
+Introduce el caracter a utilizar: @
+    @
+   @@@
+  @@@@@
+ @@@@@@@
+@@@@@@@@@
+
+Introduce la altura de la pirámide: 8
+Introduce el caracter a utilizar: X
+       X
+      XXX
+     XXXXX
+    XXXXXXX
+   XXXXXXXXX
+  XXXXXXXXXXX
+ XXXXXXXXXXXXX
+XXXXXXXXXXXXXXX
+```
+
 ### Ejercicio 20
 
 Igual que el ejercicio anterior pero esta vez se debe pintar una pirámide hueca.
