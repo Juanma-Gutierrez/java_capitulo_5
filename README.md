@@ -111,6 +111,7 @@ Introduce número: 3
 Introduce número: 4
 Introduce número: -1
 La media de los números introducidos es: 2,50
+
 ```
 
 ### Ejercicio 11
