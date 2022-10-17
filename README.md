@@ -170,7 +170,21 @@ Has introducido una potencia no válida
 
 ### Ejercicio 15
 
-Escribe un programa que dados dos números, uno real (base) y un entero positivo (exponente), saque por pantalla todas las potencias con base el numero dado y exponentes entre uno y el exponente introducido. No se deben utilizar funciones de exponenciación. Por ejemplo, si introducimos el 2 y el 5, se deberán mostrar 21, 22, 23, 24 y 25.
+Escribe un programa que dados dos números, uno real (base) y un entero positivo (exponente), saque por pantalla todas las potencias con base el numero dado y exponentes entre uno y el exponente introducido. No se deben utilizar funciones de exponenciación. Por ejemplo, si introducimos el 2 y el 5, se deberán mostrar 2<sup>1</sup>, 2<sup>2</sup>, 2<sup>3</sup>, 2<sup>4</sup> y 2<sup>5</sup>.
+
+```
+Introduce la base: 2
+Introduce la potencia (entero positivo): 5
+2 a la 1 potencia es 2
+2 a la 2 potencia es 4
+2 a la 3 potencia es 8
+2 a la 4 potencia es 16
+2 a la 5 potencia es 32
+
+Introduce la base: 2
+Introduce la potencia (entero positivo): -2
+Has introducido una potencia no válida
+```
 
 ### Ejercicio 16
 
