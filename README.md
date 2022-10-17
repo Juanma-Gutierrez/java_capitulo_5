@@ -140,21 +140,33 @@ Introduce el número de valores que quieres mostrar de la secuencia Fibonacci: 1
 Escribe un programa que lea una lista de diez números y determine cuántos son positivos, y cuántos son negativos.
 
 ```
+Introduce un número: -3
+Introduce un número: -2
+Introduce un número: -1
+Introduce un número: 0
+Introduce un número: 1
 Introduce un número: 2
 Introduce un número: 3
 Introduce un número: 4
 Introduce un número: 5
 Introduce un número: 6
-Introduce un número: 7
-Introduce un número: -1
-Introduce un número: -2
-Introduce un número: -3
-Números positivos introducidos: 7
+Números positivos introducidos: 6
 Números negativos introducidos: 3
 ```
+
 ### Ejercicio 14
 
 Escribe un programa que pida una base y un exponente (entero positivo) y que calcule la potencia.
+
+```
+Introduce la base: 5
+Introduce la potencia (entero positivo): 3
+5 a la 3 potencia es 125
+
+Introduce la base: 5
+Introduce la potencia (entero positivo): -2
+Has introducido una potencia no válida
+```
 
 ### Ejercicio 15
 
