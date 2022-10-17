@@ -216,6 +216,14 @@ Has introducido un número no válido
 
 Escribe un programa que obtenga los números enteros comprendidos entre dos números introducidos por teclado y validados como distintos, el programa debe empezar por el menor de los enteros introducidos e ir incrementando de 7 en 7.
 
+```
+
+Introduce el primer número: 100
+Introduce el segundo número: 5
+5, 12, 19, 26, 33, 40, 47, 54, 61, 68, 75, 82, 89, 96,
+
+```
+
 ### Ejercicio 19
 
 Realiza un programa que pinte una pirámide por pantalla. La altura se debe pedir por teclado. El carácter con el que se pinta la pirámide también se debe pedir por teclado.
@@ -241,10 +249,12 @@ Escribe un programa que permita ir introduciendo una serie indeterminada de núm
 Escribe un programa que lea un número n e imprima una pirámide de números con n filas como en la siguiente figura:
 
 ```
+
 1
 121
 12321
 1234321
+
 ```
 
 ### Ejercicio 25
@@ -264,9 +274,11 @@ Escribe un programa que muestre, cuente y sume los múltiplos de 3 que hay entre
 Escribe un programa que calcule el factorial de un número entero leído por teclado.
 
 ```
+
 Ejemplo:
 Por favor, introduzca un número entero: 6
 6! = 720
+
 ```
 
 ### Ejercicio 29
@@ -278,6 +290,7 @@ Escribe un programa que muestre por pantalla todos los números enteros positivo
 Realiza una programa que calcule las horas transcurridas entre dos horas de dos días de la semana. No se tendrán en cuenta los minutos ni los segundos. El día de la semana se puede pedir como un número (del 1 al 7) o como una cadena (de “lunes” a “domingo”). Se debe comprobar que el usuario introduce los datos correctamente y que el segundo día es posterior al primero.
 
 ```
+
 Ejemplo:
 Por favor, introduzca la primera hora.
 Día: lunes
@@ -286,6 +299,7 @@ Por favor, introduzca la segunda hora.
 Día: martes
 Hora: 20
 Entre las 18:00h del lunes y las 20:00h del martes hay 26 hora/s.
+
 ```
 
 ### Ejercicio 31
@@ -293,13 +307,15 @@ Entre las 18:00h del lunes y las 20:00h del martes hay 26 hora/s.
 Realiza un programa que pinte la letra L por pantalla hecha con asteriscos. El programa pedirá la altura. El palo horizontal de la L tendrá una longitud de la mitad (división entera entre 2) de la altura más uno.
 
 ```
+
 Ejemplo:
 Introduzca la altura de la L: 5
-*
-*
-*
-*
-***
+
+-
+-
+-
+-   ***
+
 ```
 
 ### Ejercicio 32
@@ -307,6 +323,7 @@ Introduzca la altura de la L: 5
 Escribe un programa que, dado un número entero positivo, diga cuáles son y cuánto suman los dígitos pares. Los dígitos pares se deben mostrar en orden, de izquierda a derecha. Usa long en lugar de int donde sea necesario para admitir números largos.
 
 ```
+
 Ejemplo 1:
 Por favor, introduzca un número entero positivo: 94026782
 Dígitos pares: 4 0 2 6 8 2
@@ -321,6 +338,7 @@ Ejemplo 3:
 Por favor, introduzca un número entero positivo: 2404
 Dígitos pares: 2 4 0 4
 Suma de los dígitos pares: 10
+
 ```
 
 ### Ejercicio 33
@@ -328,19 +346,24 @@ Suma de los dígitos pares: 10
 Realiza un programa que pinte la letra U por pantalla hecha con asteriscos. El programa pedirá la altura. Fíjate que el programa inserta un espacio y pinta dos asteriscos menos en la base para simular la curvatura de las esquinas inferiores.
 
 ```
+
 Ejemplo 1:
 Introduzca la altura de la U: 5
-*   *
-*   *
-*   *
-*   *
- ***
+
+-   -
+-   -
+-   -
+-   -
+
+---
+
 Ejemplo 2:
 Introduzca la altura de la U: 4
-*  *
-*  *
-*  *
- **
+
+-   -
+-   -
+-   -   \*\*
+
 ```
 
 ### Ejercicio 34
@@ -348,6 +371,7 @@ Introduzca la altura de la U: 4
 Escribe un programa que pida dos números por teclado y que luego mezcle en dos números diferentes los dígitos pares y los impares. Se van comprobando los dígitos de la siguiente manera: primer dígito del primer número, primer dígito del segundo número, segundo dígito del primer número, segundo dígito del segundo número, tercer dígito del primer número… Para facilitar el ejercicio, podemos suponer que el usuario introducirá dos números de la misma longitud y que siempre habrá al menos un dígito par y uno impar. Usa long en lugar de int donde sea necesario para admitir números largos.
 
 ```
+
 Ejemplo 1:
 Por favor, introduzca un número: 9402
 Introduzca otro número: 6782
@@ -359,6 +383,7 @@ Por favor, introduzca un número: 137
 Introduzca otro número: 909
 El número formado por los dígitos pares es 0
 El número formado por los dígitos impares es 19379
+
 ```
 
 ### Ejercicio 35
@@ -366,13 +391,16 @@ El número formado por los dígitos impares es 19379
 Realiza un programa que pinte una X hecha de asteriscos. El programa debe pedir la altura. Se debe comprobar que la altura sea un número impar mayor o igual a 3, en caso contrario se debe mostrar un mensaje de error.
 
 ```
+
 Ejemplo:
 Por favor, introduzca la altura de la X: 5
-*   *
- * *
-  *
- * *
-*   *
+
+-   -
+-   -
+-
+-   -
+-   -
+
 ```
 
 ### Ejercicio 36
@@ -380,6 +408,7 @@ Por favor, introduzca la altura de la X: 5
 Escribe un programa que diga si un número introducido por teclado es o no capicúa. Los números capicúa se leen igual hacia delante y hacia atrás. El programa debe aceptar números de cualquier longitud siempre que lo permita el tipo, en caso contrario el ejercicio no se dará por bueno. Se recomienda usar long en lugar de int ya que el primero admite números más largos.
 
 ```
+
 Ejemplo 1:
 Por favor, introduzca un número entero positivo: 678
 El 678 no es capicúa.
@@ -387,6 +416,7 @@ El 678 no es capicúa.
 Ejemplo 2:
 Por favor, introduzca un número entero positivo: 2019102
 El 2019102 es capicúa.
+
 ```
 
 ### Ejercicio 37
@@ -394,9 +424,11 @@ El 2019102 es capicúa.
 Realiza un conversor del sistema decimal al sistema de “palotes”.
 
 ```
+
 Ejemplo:
 Por favor, introduzca un número entero positivo: 47021
 El 47021 en decimal es el | | | | - | | | | | | | - - | | - | en el sistema de palotes.
+
 ```
 
 ### Ejercicio 38
@@ -404,13 +436,18 @@ El 47021 en decimal es el | | | | - | | | | | | | - - | | - | en el sistema de p
 Realiza un programa que pinte un reloj de arena relleno hecho de asteriscos. El programa debe pedir la altura. Se debe comprobar que la altura sea un número impar mayor o igual a 3, en caso contrario se debe mostrar un mensaje de error.
 
 ```
+
 Ejemplo:
 Por favor, introduzca la altura del reloj de arena: 5
-*****
- ***
-  *
- ***
-*****
+
+---
+
+---
+
+-   ***
+
+    ***
+
 ```
 
 ### Ejercicio 39
@@ -418,6 +455,7 @@ Por favor, introduzca la altura del reloj de arena: 5
 Escribe un programa que pida un número entero positivo por teclado y que muestre a continuación los números desde el 1 al número introducido junto con su factorial.
 
 ```
+
 Ejemplo:
 Por favor, introduzca un número entero positivo: 7
 1! = 1
@@ -427,6 +465,7 @@ Por favor, introduzca un número entero positivo: 7
 5! = 120
 6! = 720
 7! = 5040
+
 ```
 
 ### Ejercicio 40
@@ -434,13 +473,16 @@ Por favor, introduzca un número entero positivo: 7
 Realiza un programa que pinte por pantalla un rombo hueco hecho con asteriscos. El programa debe pedir la altura. Se debe comprobar que la altura sea un número impar mayor o igual a 3, en caso contrario se debe mostrar un mensaje de error.
 
 ```
+
 Ejemplo:
 Por favor, introduzca la altura del rombo: 5
-  *
- * *
-*   *
- * *
-  *
+
+-
+-   -
+-   -
+-   -
+-
+
 ```
 
 ### Ejercicio 41
@@ -448,6 +490,7 @@ Por favor, introduzca la altura del rombo: 5
 Escribe un programa que diga cuántos dígitos pares y cuántos dígitos impares hay dentro de un número. Se recomienda usar long en lugar de int ya que el primero admite números más largos.
 
 ```
+
 Ejemplo 1:
 Por favor, introduzca un número entero positivo: 406783
 El 406783 contiene 4 dígitos pares y 2 dígitos impares.
@@ -455,6 +498,7 @@ El 406783 contiene 4 dígitos pares y 2 dígitos impares.
 Ejemplo 2:
 Por favor, introduzca un número entero positivo: 3177840
 El 3177840 contiene 3 dígitos pares y 4 dígitos impares.
+
 ```
 
 ### Ejercicio 42
@@ -462,6 +506,7 @@ El 3177840 contiene 3 dígitos pares y 4 dígitos impares.
 Escribe un programa que pida un número entero positivo por teclado y que muestre a continuación los 5 números consecutivos a partir del número introducido. Al lado de cada número se debe indicar si se trata de un primo o no.
 
 ```
+
 Ejemplo:
 Por favor, introduzca un número entero positivo: 17
 17 es primo
@@ -469,6 +514,7 @@ Por favor, introduzca un número entero positivo: 17
 19 es primo
 20 no es primo
 21 no es primo
+
 ```
 
 ### Ejercicio 43
@@ -476,10 +522,12 @@ Por favor, introduzca un número entero positivo: 17
 Escribe un programa que permita partir un número introducido por teclado en dos partes. Las posiciones se cuentan de izquierda a derecha empezando por el 1. Suponemos que el usuario introduce correctamente los datos, es decir, el número introducido tiene dos dígitos como mínimo y la posición en la que se parte el número está entre 2 y la longitud del número. No se permite en este ejercicio el uso de funciones de manejo de String (por ej. para extraer subcadenas dentro de una cadena).
 
 ```
+
 Ejemplo:
 Por favor, introduzca un número entero positivo: 406783
 Introduzca la posición a partir de la cual quiere partir el número: 5
 Los números partidos son el 4067 y el 83.
+
 ```
 
 ### Ejercicio 44
@@ -487,11 +535,13 @@ Los números partidos son el 4067 y el 83.
 Escribe un programa que sea capaz de insertar un dígito dentro de un número indicando la posición. El nuevo dígito se colocará en la posición indicada y el resto de dígitos se desplazará hacia la derecha. Las posiciones se cuentan de izquierda a derecha empezando por el 1. Suponemos que el usuario introduce correctamente los datos. Se recomienda usar long en lugar de int ya que el primero admite números más largos.
 
 ```
+
 Ejemplo:
 Por favor, introduzca un número entero positivo: 406783
 Introduzca la posición donde quiere insertar: 3
 Introduzca el dígito que quiere insertar: 5
 El número resultante es 4056783.
+
 ```
 
 ### Ejercicio 45
@@ -499,11 +549,13 @@ El número resultante es 4056783.
 Escribe un programa que cambie un dígito dentro de un número dando la posición y el valor nuevo. Las posiciones se cuentan de izquierda a derecha empezando por el 1. Se recomienda usar long en lugar de int ya que el primero admite números más largos. Suponemos que el usuario introduce correctamente los datos.
 
 ```
+
 Ejemplo:
 Por favor, introduzca un número entero positivo: 406783
 Introduzca la posición dentro del número: 3
 Introduzca el nuevo dígito: 1
 El número resultante es 401783
+
 ```
 
 ### Ejercicio 46
@@ -511,6 +563,7 @@ El número resultante es 401783
 Realiza un programa que pinte por pantalla un rectángulo hueco hecho con asteriscos. Se debe pedir al usuario la anchura y la altura. Hay que comprobar que tanto la anchura como la altura sean mayores o iguales que 2, en caso contrario se debe mostrar un mensaje de error.
 
 ```
+
 Ejemplo 1:
 Por favor, introduzca la anchura del rectángulo (como mínimo 2): 4
 Ahora introduzca la altura (como mínimo 2): 1
@@ -520,10 +573,14 @@ a es 2.
 Ejemplo 2:
 Por favor, introduzca la anchura del rectángulo (como mínimo 2): 6
 Ahora introduzca la altura (como mínimo 2): 4
-******
-*    *
-*    *
-******
+
+---
+
+-   -
+-   -
+
+---
+
 ```
 
 ### Ejercicio 47
@@ -531,6 +588,7 @@ Ahora introduzca la altura (como mínimo 2): 4
 Con motivo de la celebración del día de la mujer, el 8 de marzo, nos han encargado realizar un programa que pinte un 8 por pantalla usando la letra M. Se pide al usuario la altura, que debe ser un número entero impar mayor o igual que 5. Si el número introducido no es correcto, el programa deberá mostrar un mensaje de error. A continuación se muestran algunos ejemplos. La anchura de la figura siempre será de 6 caracteres.
 
 ```
+
 Ejemplo 1:
 Por favor, introduzca la altura (número impar mayor o igual a 5): 8
 La altura introducida no es correcta
@@ -542,22 +600,23 @@ La altura introducida no es correcta
 Ejemplo 3:
 Por favor, introduzca la altura (número impar mayor o igual a 5): 5
 MMMMMM
-M    M
+M M
 MMMMMM
-M    M
+M M
 MMMMMM
 
 Ejemplo 4:
 Por favor, introduzca la altura (número impar mayor o igual a 5): 9
 MMMMMM
-M    M
-M    M
-M    M
+M M
+M M
+M M
 MMMMMM
-M    M
-M    M
-M    M
+M M
+M M
+M M
 MMMMMM
+
 ```
 
 ### Ejercicio 48
@@ -565,6 +624,7 @@ MMMMMM
 Realiza un programa que diga los dígitos que aparecen y los que no aparecen en un número entero introducido por teclado. El orden es el que se muestra en los ejemplos. Utiliza el tipo long para que el usuario pueda introducir números largos.
 
 ```
+
 Ejemplo 1:
 Introduzca un número entero: 67706
 Dígitos que aparecen en el número: 0 6 7
@@ -584,6 +644,7 @@ Ejemplo 4:
 Introduzca un número entero: 13247721
 Dígitos que aparecen en el número: 1 2 3 4 7
 Dígitos que no aparecen: 0 5 6 8 9
+
 ```
 
 ### Ejercicio 49
@@ -591,6 +652,7 @@ Dígitos que no aparecen: 0 5 6 8 9
 Realiza un programa que calcule el máximo, el mínimo y la media de una serie de números enteros positivos introducidos por teclado. El programa terminará cuando el usuario introduzca un número primo. Este último número no se tendrá en cuenta en los cálculos. El programa debe indicar también cuántos números ha introducido el usuario (sin contar el primo que sirve para salir).
 
 ```
+
 Ejemplo:
 Por favor, vaya introduciendo números enteros positivos. Para terminar, introduzca un número primo:
 6
@@ -602,6 +664,7 @@ Ha introducido 4 números no primos.
 Máximo: 15
 Mínimo: 6
 Media: 10.25
+
 ```
 
 ### Ejercicio 50
@@ -609,36 +672,56 @@ Media: 10.25
 Una empresa de cartelería nos ha encargado un programa para realizar uno de sus diseños. Debido a los acontecimientos que han tenido lugar en Cataluña durante el 2018, han recibido muchos pedidos del cartel que muestra el número 155. Realiza un programa que pinte el número 155 mediante asteriscos. Al usuario se le pedirán dos datos, la altura del cartel y el número de espacios que habrá entre los números. La altura mínima es 5. La anchura de los números siempre es la misma. La parte superior de los cincos también es siempre igual. La parte inferior del 5 sí que varía en función de la altura.
 
 ```
+
 Ejemplo 1:
 Introduzca la altura (5 como mínimo): 5
 Introduzca el número de espacios entre los números (1 como mínimo): 2
-*  ****  ****
-*  *     *
-*  ****  ****
-*     *     *
-*  ****  ****
+
+---
+
+---
+
+---
+
+---
+
+---
 
 Ejemplo 2:
 
 Introduzca la altura (5 como mínimo): 7
 Introduzca el número de espacios entre los números (1 como mínimo): 3
-*   ****   ****
-*   *      *
-*   ****   ****
-*      *      *
-*      *      *
-*      *      *
-*   ****   ****
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
 
 Ejemplo 3:
 Introduzca la altura (5 como mínimo): 6 Introduzca el número de
 espacios entre los números (1 como mínimo): 1
-* **** ****
-* *    *
-* **** ****
-*    *    *
-*    *    *
-* **** ****
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ```
 
 ### Ejercicio 51
@@ -646,6 +729,7 @@ espacios entre los números (1 como mínimo): 1
 El gusano numérico se come los dígitos con forma de rosquilla, o sea, el 0 y el 8 (todos los que encuentre). Realiza un programa que muestre un número antes y después de haber sido comido por el gusano. Si el animalito no se ha comido ningún dígito, el programa debe indicarlo.
 
 ```
+
 Ejemplo 1:
 Introduzca un número entero (mayor que cero): 51803458
 Después de haber sido comido por el gusano numérico se queda en 51345
@@ -653,6 +737,7 @@ Después de haber sido comido por el gusano numérico se queda en 51345
 Ejemplo 2:
 Introduzca un número entero (mayor que cero): 29614
 El gusano numérico no se ha comido ningún dígito.
+
 ```
 
 ### Ejercicio 52
@@ -660,6 +745,7 @@ El gusano numérico no se ha comido ningún dígito.
 Realiza un programa que sea capaz de desplazar todos los dígitos de un número de derecha a izquierda una posición. El dígito de más a la izquierda, pasaría a dar la vuelta y se colocaría a la derecha. Si el número tiene un solo dígito, se queda igual.
 
 ```
+
 Ejemplo 1:
 Introduzca un número: 609831
 El número resultado es 98316
@@ -675,6 +761,7 @@ El número resultado es 42
 Ejemplo 4:
 Introduzca un número: 8
 El número resultado es 8
+
 ```
 
 ### Ejercicio 53
@@ -682,24 +769,39 @@ El número resultado es 8
 Realiza un programa que pinte un triángulo relleno tal como se muestra en los ejemplos. El usuario debe introducir la altura de la figura.
 
 ```
+
 Ejemplo 1:
 Introduzca la altura de la figura: 8
-********
-*******
-******
-*****
-****
-***
-**
-*
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+\*\*
+
+-
 
 Ejemplo 2:
 Introduzca la altura de la figura: 5
-*****
-****
-***
-**
-*
+
+---
+
+---
+
+---
+
+\*\*
+
+-
+
 ```
 
 ### Ejercicio 54
@@ -707,24 +809,28 @@ Introduzca la altura de la figura: 5
 Realiza un programa que pinte un triángulo hueco tal como se muestra en los ejemplos. El usuario debe introducir la altura de la figura.
 
 ```
+
 Ejemplo 1:
 Introduzca la altura de la figura: 8
-********
-*     *
-*    *
-*   *
-*  *
-* *
-**
-*
+
+---
+
+-         *
+-   -
+-   -
+-   -
+-   -   \*\*
+-
 
 Ejemplo 2:
 Introduzca la altura de la figura: 5
-*****
-*  *
-* *
-**
-*
+
+---
+
+-   -
+-   -   \*\*
+-
+
 ```
 
 ### Ejercicio 55
@@ -732,6 +838,7 @@ Introduzca la altura de la figura: 5
 Realiza un programa que sea capaz de desplazar todos los dígitos de un número de izquierda a derecha una posición. El dígito de más a la derecha, pasaría a dar la vuelta y se colocaría a la izquierda. Si el número tiene un solo dígito, se queda igual.
 
 ```
+
 Ejemplo 1:
 Introduzca un número: 609831
 El número resultado es 160983
@@ -747,6 +854,7 @@ El número resultado es 42
 Ejemplo 4:
 Introduzca un número: 8
 El número resultado es 8
+
 ```
 
 ### Ejercicio 56
@@ -754,12 +862,18 @@ El número resultado es 8
 Realiza un programa que pinte un triángulo relleno tal como se muestra en los ejemplos. El usuario debe introducir la altura de la figura.
 
 ```
+
 Ejemplo 1:
 Introduzca la altura de la figura: 8
-********
- *******
-  ******
-   *****
+
+---
+
+---
+
+---
+
+---
+
     ****
      ***
       **
@@ -767,11 +881,15 @@ Introduzca la altura de la figura: 8
 
 Ejemplo 2:
 Introduzca la altura de la figura: 5
-*****
- ****
-  ***
-   **
-    *
+
+---
+
+---
+
+---
+
+\*\* \*
+
 ```
 
 ### Ejercicio 57
@@ -779,25 +897,26 @@ Introduzca la altura de la figura: 5
 Realiza un programa que pinte un triángulo hueco tal como se muestra en los ejemplos. El usuario debe introducir la altura de la figura.
 
 ```
+
 Ejemplo 1:
 Introduzca la altura de la figura: 8
 
-********
- *     *
-  *    *
-   *   *
-    *  *
-     * *
-      **
-       *
+---
+
+-         *
+-   -
+-   -
+-   -
+-   -   ## \*\*
 
 Ejemplo 2:
 Introduzca la altura de la figura: 5
-*****
- *  *
-  * *
-   **
-    *
+
+---
+
+-   -
+-   -   ## \*\*
+
 ```
 
 ### Ejercicio 58
@@ -805,6 +924,7 @@ Introduzca la altura de la figura: 5
 Realiza un programa que calcule la media de los dígitos que contiene un número entero introducido por teclado.
 
 ```
+
 Ejemplo 1:
 Introduzca un número: 609831
 La media de sus dígitos es 4.5
@@ -820,6 +940,7 @@ La media de sus dígitos es 3.0
 Ejemplo 4:
 Introduzca un número: 8
 La media de sus dígitos es 8.0
+
 ```
 
 ### Ejercicio 59
@@ -827,35 +948,35 @@ La media de sus dígitos es 8.0
 Escribe un programa que pinte por pantalla un árbol de navidad. El usuario debe introducir la altura. En esa altura va incluida la estrella y el tronco. Suponemos que el usuario introduce una altura mayor o igual a 4.
 
 ```
+
 Ejemplo 1:
-Por favor, introduzca la altura del árbol: 7
-    *
-    ^
-   ^ ^
-  ^   ^
- ^     ^
+Por favor, introduzca la altura del árbol: 7 \*
+^
+^ ^
+^ ^
+^ ^
 ^^^^^^^^^
-    Y
+Y
 
 Ejemplo 2:
 Por favor, introduzca la altura del árbol: 4
- *
- ^
-^^^
- Y
+
+-   ^
+    ^^^
+    Y
 
 Ejemplo 3:
-Por favor, introduzca la altura del árbol: 10
-       *
-       ^
-      ^ ^
-     ^   ^
-    ^     ^
-   ^       ^
-  ^         ^
- ^           ^
+Por favor, introduzca la altura del árbol: 10 \*
+^
+^ ^
+^ ^
+^ ^
+^ ^
+^ ^
+^ ^
 ^^^^^^^^^^^^^^^
-       Y
+Y
+
 ```
 
 ### Ejercicio 60
@@ -863,34 +984,56 @@ Por favor, introduzca la altura del árbol: 10
 Escribe un programa que pinte por pantalla un par de calcetines, de los que se ponen al lado del árbol de Navidad para que Papá Noel deje sus regalos. El usuario debe introducir la altura. Suponemos que el usuario introduce una altura mayor o igual a 4. Observa que la talla de los calcetines y la distancia que hay entre ellos (dos espacios) no cambia, lo único que varía es la altura.
 
 ```
+
 Ejemplo 1:
 Introduzca la altura de los calcetines: 7
-***     ***
-***     ***
-***     ***
-***     ***
-***     ***
-******  ******
-******  ******
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
 
 Ejemplo 2:
 Introduzca la altura de los calcetines: 4
-***     ***
-***     ***
-******  ******
-******  ******
+
+---
+
+---
+
+---
+
+---
 
 Ejemplo 3:
 Introduzca la altura de los calcetines: 9
-***     ***
-***     ***
-***     ***
-***     ***
-***     ***
-***     ***
-***     ***
-******  ******
-******  ******
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ```
 
 ### Ejercicio 61
@@ -898,30 +1041,44 @@ Introduzca la altura de los calcetines: 9
 Escribe un programa que pinte por pantalla la letra V. El ancho del palo de la V es siempre de 3 asteriscos. El usuario debe introducir la altura. La altura mínima es de 3 pisos. Si el usuario introduce una altura menor, el programa debe mostrar un mensaje de error.
 
 ```
+
 Ejemplo 1:
 Introduzca la altura de la V (un número mayor o igual a 3): 7
 
-***            ***
- ***          ***
-  ***        ***
-   ***      ***
+---
+
+---
+
+---
+
+---
+
     ***    ***
      ***  ***
       ******
 
 Ejemplo 2:
 Introduzca la altura de la V (un número mayor o igual a 3): 4
-***      ***
- ***    ***
-  ***  ***
-   ******
+
+---
+
+---
+
+---
+
+---
 
 Ejemplo 3:
 Introduzca la altura de la V (un número mayor o igual a 3): 9
-***                ***
- ***              ***
-  ***            ***
-   ***          ***
+
+---
+
+---
+
+---
+
+---
+
     ***        ***
      ***      ***
       ***    ***
@@ -931,6 +1088,7 @@ Introduzca la altura de la V (un número mayor o igual a 3): 9
 Ejemplo 4:
 Introduzca la altura de la V (un número mayor o igual a 3): 2
 La altura debe ser mayor o igual a 3.
+
 ```
 
 ### Ejercicio 62
@@ -938,6 +1096,7 @@ La altura debe ser mayor o igual a 3.
 Según cierta cultura oriental, los números de la suerte son el 3, el 7, el 8 y el 9. Los números de la mala suerte son el resto: el 0, el 1, el 2, el 4, el 5 y el 6. Un número es afortunado si contiene más números de la suerte que de la mala suerte. Realiza un programa que diga si un número introducido por el usuario es afortunado o no.
 
 ```
+
 Ejemplo 1:
 Introduzca un número: 772
 El 772 es un número afortunado.
@@ -961,6 +1120,7 @@ El 1234 no es un número afortunado.
 Ejemplo 6:
 Introduzca un número: 6789
 El 6789 es un número afortunado.
+
 ```
 
 ### Ejercicio 63
@@ -968,25 +1128,33 @@ El 6789 es un número afortunado.
 Realiza un programa que pinte dos pirámides rellenas hechas con asteriscos, una al lado de la otra y separadas por un espacio en su base.
 
 ```
+
 Ejemplo 1:
 Introduzca la altura de la primera pirámide: 7
-Introduzca la altura de la segunda pirámide: 3
-      *
-     ***
-    *****
-   *******
-  *********     *
- ***********   ***
-************* *****
+Introduzca la altura de la segunda pirámide: 3 \*
+**\*
+\*\*\***
+
+---
+
+---
+
+---
+
+---
 
 Ejemplo 2:
 Introduzca la altura de la primera pirámide: 4
-Introduzca la altura de la segunda pirámide: 5
-            *
-   *       ***
-  ***     *****
- *****   *******
-******* *********
+Introduzca la altura de la segunda pirámide: 5 \*
+
+---
+
+---
+
+---
+
+---
+
 ```
 
 ### Ejercicio 64
@@ -994,52 +1162,68 @@ Introduzca la altura de la segunda pirámide: 5
 Escribe un programa que pinte por pantalla un rectángulo hueco de 6 caracteres de ancho por 3 de alto y, a continuación, un menú que permita agrandarlo, achicarlo o cambiar su orientación. Cada vez que el rectángulo se agranda, se incrementa en 1 tanto su anchura como su altura. Cuando se achica, se decrementa en 1 su anchura y altura. Por último, cuando se cambia la orientación, los valores de anchura y altura se intercambian. El valor mínimo de la altura o la anchura es 2.
 
 ```
+
 Ejemplo:
-******
-*    *
-******
-1. Agrandarlo
-2. Achicarlo
-3. Cambiar la orientación
-4. Salir
-Indique qué quiere hacer con el rectángulo: 2
 
-****
-****
-1. Agrandarlo
-2. Achicarlo
-3. Cambiar la orientación
-4. Salir
-Indique qué quiere hacer con el rectángulo: 2
+---
 
-****
-****
-1. Agrandarlo
-2. Achicarlo
-3. Cambiar la orientación
-4. Salir
-Indique qué quiere hacer con el rectángulo: 1
+-   -
 
-*****
-*   *
-*****
-1. Agrandarlo
-2. Achicarlo
-3. Cambiar la orientación
-4. Salir
-Indique qué quiere hacer con el rectángulo: 3
+---
 
-***
-* *
-* *
-* *
-* *
-***
 1. Agrandarlo
 2. Achicarlo
 3. Cambiar la orientación
 4. Salir
-Indique qué quiere hacer con el rectángulo: 4
+   Indique qué quiere hacer con el rectángulo: 2
+
+---
+
+---
+
+1. Agrandarlo
+2. Achicarlo
+3. Cambiar la orientación
+4. Salir
+   Indique qué quiere hacer con el rectángulo: 2
+
+---
+
+---
+
+1. Agrandarlo
+2. Achicarlo
+3. Cambiar la orientación
+4. Salir
+   Indique qué quiere hacer con el rectángulo: 1
+
+---
+
+-   -
+
+---
+
+1. Agrandarlo
+2. Achicarlo
+3. Cambiar la orientación
+4. Salir
+   Indique qué quiere hacer con el rectángulo: 3
+
+---
+
+-   -
+-   -
+-   -
+-   -
+
+---
+
+1. Agrandarlo
+2. Achicarlo
+3. Cambiar la orientación
+4. Salir
+   Indique qué quiere hacer con el rectángulo: 4
+
 ```
 
 ### Ejercicio 65
@@ -1047,27 +1231,28 @@ Indique qué quiere hacer con el rectángulo: 4
 Escribe un programa que pinte por pantalla la letra A. El usuario debe introducir la altura total y la fila en la que debe aparecer el palito horizontal (contando desde el vértice). La altura mínima es de 3 pisos. La fila donde va el palito horizontal debe ser mayor que 1 y menor que la altura total. Si el usuario introduce algún dato incorrecto, el programa debe mostrar un mensaje de error.
 
 ```
+
 Ejemplo 1:
 Introduzca la altura de la A (un número mayor o igual a 3): 7
-Introduzca la fila del palito horizontal (entre 2 y 6): 5
-      *
-     * *
-    *   *
-   *     *
-  *********
- *         *
-*           *
+Introduzca la fila del palito horizontal (entre 2 y 6): 5 \* \* \* \* \*
+
+-         *
+
+---
+
+-             *
+-               *
 
 Ejemplo 2:
 Introduzca la altura de la A (un número mayor o igual a 3): 7
-Introduzca la fila del palito horizontal (entre 2 y 6): 6
-      *
-     * *
-    *   *
-   *     *
-  *       *
- ***********
-*           *
+Introduzca la fila del palito horizontal (entre 2 y 6): 6 \* \* \* \* \*
+
+-         *
+-           *
+
+---
+
+-               *
 
 Ejemplo 3:
 Introduzca la altura de la A (un número mayor o igual a 3): 7
@@ -1081,19 +1266,23 @@ La altura introducida no es correcta.
 Ejemplo 5:
 Introduzca la altura de la A (un número mayor o igual a 3): 4
 Introduzca la fila del palito horizontal (entre 2 y 3): 2
-   *
-  ***
- *   *
-*     *
+
+-   ***
+
+-   -
+-         *
 
 Ejemplo 1:
 Introduzca la altura de la A (un número mayor o igual a 3): 5
-Introduzca la fila del palito horizontal (entre 2 y 4): 4
-    *
-   * *
-  *   *
- *******
-*       *
+Introduzca la fila del palito horizontal (entre 2 y 4): 4 \*
+
+-   -
+-   -
+
+---
+
+-           *
+
 ```
 
 ### Ejercicio 66
@@ -1101,25 +1290,29 @@ Introduzca la fila del palito horizontal (entre 2 y 4): 4
 La Guardia Civil de Tráfico nos ha encargado un programa que pinte una señal para desviar el tráfico hacia la derecha. La señal es una doble flecha con el vértice apuntando a la derecha. Se pide al usuario la altura de la figura, que debe ser un número impar mayor o igual que 3. La distancia entre cada flecha de asteriscos es siempre de 4 espacios. Si la altura introducida por el usuario no es un número impar mayor o igual que 3, el programa debe mostrar un mensaje de error.
 
 ```
+
 Ejemplo 1:
 Por favor, introduzca la altura de la figura: 7
-*     *
- *     *
-  *     *
-   *     *
-  *     *
- *     *
-*     *
+
+-         *
+-         *
+-         *
+-         *
+-         *
+-         *
+-         *
 
 Ejemplo 2:
 Por favor, introduzca la altura de la figura: 3
-*     *
- *     *
-*     *
+
+-         *
+-         *
+-         *
 
 Ejemplo 3:
 Por favor, introduzca la altura de la figura: 4
 La altura no es correcta, debe ser un número impar mayor o igual que 3.
+
 ```
 
 ### Ejercicio 67
@@ -1127,30 +1320,49 @@ La altura no es correcta, debe ser un número impar mayor o igual que 3.
 Realiza un programa que pinte una escalera que va descendiendo de izquierda a derecha. El programa pedirá el número de escalones y la altura de cada escalón. La anchura de los escalones siempre es la misma: 4 asteriscos.
 
 ```
+
 Ejemplo 1:
 Introduzca el número de escalones: 4
 Introduzca la altura de cada escalón: 2
-****
-****
-********
-********
-************
-************
-****************
-****************
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
 
 Ejemplo 2:
 Introduzca el número de escalones: 3
 Introduzca la altura de cada escalón: 3
-****
-****
-****
-********
-********
-********
-************
-************
-************
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
+---
+
 ```
 
 ### Ejercicio 68
@@ -1158,6 +1370,7 @@ Introduzca la altura de cada escalón: 3
 Escribe un programa que pida un número por teclado y que luego lo “disloque” de tal forma que a cada dígito se le suma 1 si es par y se le resta 1 si es impar. Usa long en lugar de int donde sea necesario para admitir números largos.
 
 ```
+
 Ejemplo 1:
 Por favor, introduzca un número: 9402
 Dislocando el 9402 sale el 8513.
@@ -1169,6 +1382,7 @@ Dislocando el 870958422 sale el 961849533.
 Ejemplo 3:
 Por favor, introduzca un número: 137
 Dislocando el 137 sale el 26
+
 ```
 
 ### Ejercicio 69
@@ -1176,23 +1390,34 @@ Dislocando el 137 sale el 26
 Realiza un programa que pinte una pirámide maya. Por los lados, se trata de una pirámide normal y corriente. Por el centro se van pintando líneas de asteriscos de forma alterna (empezando por la superior): la primera se pinta, la segunda no, la tercera sí, la cuarta no, etc. La terraza de la pirámide siempre tiene 6 asteriscos, por tanto, las líneas centrales que se añaden a la pirámide normal tienen 4 asteriscos. El programa pedirá la altura. Se supone que el usuario introducirá un número entero mayor o igual a 3; no es necesario comprobar los datos de entrada.
 
 ```
+
 Ejemplo 1:
 Introduzca la altura de la pirámide maya: 5
 
     ******
-   **    **
-  **********
- ****    ****
-**************
+
+---
+
+---
+
+---
+
+---
 
 Ejemplo 2:
 Introduzca la altura de la pirámide maya: 8
-       ******
-      **    **
-     **********
-    ****    ****
-   **************
-  ******    ******
- ******************
-********    ********
+**\*\***
+\*\* \*\*
+**\*\*\*\*\*\*** \***\* \*\***
+
+---
+
+---
+
+---
+
+---
+
+```
+
 ```
