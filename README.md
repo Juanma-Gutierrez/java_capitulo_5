@@ -68,6 +68,23 @@ La caja fuerte se ha abierto satisfactoriamente
 
 Muestra la tabla de multiplicar de un número introducido por teclado.
 
+```
+Introduce un número del 1 al 10: 6
+6 x 1 = 6
+6 x 2 = 12
+6 x 3 = 18
+6 x 4 = 24
+6 x 5 = 30
+6 x 6 = 36
+6 x 7 = 42
+6 x 8 = 48
+6 x 9 = 54
+6 x 10 = 60
+
+Introduce un número del 1 al 10: 12
+Has introducido un número no válido
+```
+
 ### Ejercicio 9
 
 Realiza un programa que nos diga cuántos dígitos tiene un número introducido por teclado. Este ejercicio es equivalente a otro realizado anteriormente, con la salvedad de que el anterior estaba limitado a números de 5 dígitos como máximo. En esta ocasión, hay que realizar el ejercicio utilizando bucles; de esta manera, la única limitación en el número de dígitos la establece el tipo de dato que se utilice (int o long).
