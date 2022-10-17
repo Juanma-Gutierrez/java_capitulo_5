@@ -111,12 +111,20 @@ Introduce número: 3
 Introduce número: 4
 Introduce número: -1
 La media de los números introducidos es: 2,50
-
 ```
 
 ### Ejercicio 11
 
 Escribe un programa que muestre en tres columnas, el cuadrado y el cubo de los 5 primeros números enteros a partir de uno que se introduce por teclado.
+
+```
+Introduce un número entero: 5
+5         25        125
+6         36        216
+7         49        343
+8         64        512
+9         81        729
+```
 
 ### Ejercicio 12
 
