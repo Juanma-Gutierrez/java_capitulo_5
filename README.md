@@ -89,6 +89,17 @@ Has introducido un número no válido
 
 Realiza un programa que nos diga cuántos dígitos tiene un número introducido por teclado. Este ejercicio es equivalente a otro realizado anteriormente, con la salvedad de que el anterior estaba limitado a números de 5 dígitos como máximo. En esta ocasión, hay que realizar el ejercicio utilizando bucles; de esta manera, la única limitación en el número de dígitos la establece el tipo de dato que se utilice (int o long).
 
+```
+Introduce un número mayor que 0: 123456
+El número introducido tiene 6 dígitos
+
+Introduce un número mayor que 0: 123456789
+El número introducido tiene 9 dígitos
+
+Introduce un número mayor que 0: -1
+Has introducido un número no válido
+```
+
 ### Ejercicio 10
 
 Escribe un programa que calcule la media de un conjunto de números positivos introducidos por teclado. A priori, el programa no sabe cuántos números se introducirán. El usuario indicará que ha terminado de introducir los datos cuando meta un número negativo.
