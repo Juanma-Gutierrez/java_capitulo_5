@@ -301,6 +301,16 @@ Muestra por pantalla todos los números primos entre 2 y 100, ambos incluidos.
 
 Escribe un programa que permita ir introduciendo una serie indeterminada de números mientras su suma no supere el valor 10000. Cuando esto último ocurra, se debe mostrar el total acumulado, el contador de los números introducidos y la media.
 
+```
+Introduce un número: 5000
+Introduce un número: 1250
+Introduce un número: 3
+Introduce un número: 1000
+Introduce un número: 5000
+Total acumulado: 12253
+Contador de números introducidos: 5
+Media de números introducidos: 2450,60
+```
 ### Ejercicio 24
 
 Escribe un programa que lea un número n e imprima una pirámide de números con n filas como en la siguiente figura:

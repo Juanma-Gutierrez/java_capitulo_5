@@ -7,10 +7,7 @@
  *          https://github.com/Juanma-Gutierrez
  */
 
-/* Realiza un programa que vaya pidiendo números hasta que se introduzca un numero negativo y nos diga cuantos números se han introducido, la media de los impares y el mayor de los pares. El número negativo sólo se utiliza para indicar el final de la introducción de datos pero no se incluye en el cómputo. */
 import java.util.Scanner;
-
-import javax.swing.text.AbstractDocument.Content;
 
 public class Ejercicio21 {
     public static void main(String[] args) {
@@ -43,9 +40,9 @@ public class Ejercicio21 {
 
         System.out.println("La cantidad de números introducida es: " + counter);
         System.out.println("El mayor número par es: " + maxPair);
-        if (counterOdd>0)
+        if (counterOdd > 0)
             System.out.printf("La media de impares es: %.2f", ((float) averageOdd / counterOdd));
-            else
+        else
             System.out.println("No se ha introducido ningún número impar");
 
         sc.close();
