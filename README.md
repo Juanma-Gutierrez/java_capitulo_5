@@ -272,19 +272,18 @@ XXX
 Realiza un programa que vaya pidiendo números hasta que se introduzca un numero negativo y nos diga cuantos números se han introducido, la media de los impares y el mayor de los pares. El número negativo sólo se utiliza para indicar el final de la introducción de datos pero no se incluye en el cómputo.
 
 ```
-Introduce un número: 1
-Introduce un número: 2
-Introduce un número: 3
-Introduce un número: 4
-Introduce un número: 5
-Introduce un número: -1
-La cantidad de números introducida es: 5
+Introduce un número (negativo para terminar): 5
+Introduce un número (negativo para terminar): 4
+Introduce un número (negativo para terminar): 3
+Introduce un número (negativo para terminar): 5
+Introduce un número (negativo para terminar): -1
+La cantidad de números introducida es: 4
 El mayor número par es: 4
-La media de impares es: 3.0
+La media de impares es: 4,33
 
-Introduce un número: 2
-Introduce un número: 4
-Introduce un número: -1
+Introduce un número (negativo para terminar): 2
+Introduce un número (negativo para terminar): 4
+Introduce un número (negativo para terminar): -1
 La cantidad de números introducida es: 2
 El mayor número par es: 4
 No se ha introducido ningún número impar

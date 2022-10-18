@@ -27,7 +27,7 @@ public class Ejercicio21 {
         maxPair = 0;
 
         do {
-            System.out.print("Introduce un número: ");
+            System.out.print("Introduce un número (negativo para terminar): ");
             num = sc.nextInt();
             if (num >= 0) {
                 if (num % 2 == 0) {
@@ -44,7 +44,7 @@ public class Ejercicio21 {
         System.out.println("La cantidad de números introducida es: " + counter);
         System.out.println("El mayor número par es: " + maxPair);
         if (counterOdd>0)
-            System.out.println("La media de impares es: " + ((float) averageOdd / counterOdd));
+            System.out.printf("La media de impares es: %.2f", ((float) averageOdd / counterOdd));
             else
             System.out.println("No se ha introducido ningún número impar");
 
