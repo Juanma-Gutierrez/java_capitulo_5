@@ -358,7 +358,6 @@ Suma de múltiplos de 3: 63
 Escribe un programa que calcule el factorial de un número entero leído por teclado.
 
 ```
-
 Ejemplo:
 Por favor, introduzca un número entero: 6
 6! = 720
