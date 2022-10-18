@@ -253,6 +253,20 @@ XXXXXXXXXXXXXXX
 
 Igual que el ejercicio anterior pero esta vez se debe pintar una pirámide hueca.
 
+```
+Introduce la altura de la pirámide: 5
+    @
+   @ @
+  @   @
+ @     @
+@@@@@@@@@
+
+Introduce la altura de la pirámide: 2
+Introduce el caracter a utilizar: X
+ X
+XXX
+```
+
 ### Ejercicio 21
 
 Realiza un programa que vaya pidiendo números hasta que se introduzca un numero negativo y nos diga cuantos números se han introducido, la media de los impares y el mayor de los pares. El número negativo sólo se utiliza para indicar el final de la introducción de datos pero no se incluye en el cómputo.
