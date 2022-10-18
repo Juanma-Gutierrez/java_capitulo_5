@@ -39,7 +39,6 @@ public class Ejercicio25 {
         } else
             System.out.print("Número introducido no válido.");
 
-        // Output results
         sc.close();
     }
 }
