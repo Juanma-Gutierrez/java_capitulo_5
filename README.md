@@ -336,9 +336,22 @@ El número: 123456 al revés se escribe: 654321
 
 Realiza un programa que pida primero un número y a continuación un dígito. El programa nos debe dar la posición (o posiciones) contando de izquierda a derecha que ocupa ese dígito en el número introducido.
 
+```
+Introduce un número: 11222211
+Introduce un dígito del número introducido: 2
+3, 4, 5, 6,
+```
+
 ### Ejercicio 27
 
 Escribe un programa que muestre, cuente y sume los múltiplos de 3 que hay entre 1 y un número leído por teclado.
+
+```
+Introduce un número: 20
+3, 6, 9, 12, 15, 18,
+Total múltiplos de 3: 6
+Suma de múltiplos de 3: 63
+```
 
 ### Ejercicio 28
 
