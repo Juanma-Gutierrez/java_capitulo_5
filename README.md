@@ -327,6 +327,11 @@ Escribe un programa que lea un número n e imprima una pirámide de números con
 
 Realiza un programa que pida un número por teclado y que luego muestre ese número al revés.
 
+```
+Introduce un númerom mayor que 0: 123456
+El número: 123456 al revés se escribe: 654321
+```
+
 ### Ejercicio 26
 
 Realiza un programa que pida primero un número y a continuación un dígito. El programa nos debe dar la posición (o posiciones) contando de izquierda a derecha que ocupa ese dígito en el número introducido.
