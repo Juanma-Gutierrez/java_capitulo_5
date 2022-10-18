@@ -293,6 +293,10 @@ No se ha introducido ningún número impar
 
 Muestra por pantalla todos los números primos entre 2 y 100, ambos incluidos.
 
+```
+2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97,
+```
+
 ### Ejercicio 23
 
 Escribe un programa que permita ir introduciendo una serie indeterminada de números mientras su suma no supere el valor 10000. Cuando esto último ocurra, se debe mostrar el total acumulado, el contador de los números introducidos y la media.
