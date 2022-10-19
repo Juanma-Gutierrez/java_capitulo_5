@@ -2,7 +2,7 @@
 
 Soluciones a los ejercicios del libro **Aprende Java con ejercicios** de Luis José Sánchez (_Edición 2019_).
 
-Este libro está a la venta en https://leanpub.com/aprendejava
+Este libro está a la venta en <https://leanpub.com/aprendejava>
 
 ### Ejercicio 1
 
@@ -547,16 +547,13 @@ Por favor, introduzca un número entero positivo: 7
 Realiza un programa que pinte por pantalla un rombo hueco hecho con asteriscos. El programa debe pedir la altura. Se debe comprobar que la altura sea un número impar mayor o igual a 3, en caso contrario se debe mostrar un mensaje de error.
 
 ```
-
 Ejemplo:
 Por favor, introduzca la altura del rombo: 5
-
--
--   -
--   -
--   -
--
-
+  X
+ X X
+X   X
+ X X
+  X
 ```
 
 ### Ejercicio 41
