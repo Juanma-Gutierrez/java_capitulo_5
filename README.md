@@ -400,10 +400,10 @@ Realiza un programa que pinte la letra L por pantalla hecha con asteriscos. El p
 Ejemplo:
 Introduzca la altura de la L: 5
 
--
--
--
--   ***
+*
+*
+*
+***
 
 ```
 
@@ -412,7 +412,6 @@ Introduzca la altura de la L: 5
 Escribe un programa que, dado un número entero positivo, diga cuáles son y cuánto suman los dígitos pares. Los dígitos pares se deben mostrar en orden, de izquierda a derecha. Usa long en lugar de int donde sea necesario para admitir números largos.
 
 ```
-
 Ejemplo 1:
 Por favor, introduzca un número entero positivo: 94026782
 Dígitos pares: 4 0 2 6 8 2
@@ -427,7 +426,6 @@ Ejemplo 3:
 Por favor, introduzca un número entero positivo: 2404
 Dígitos pares: 2 4 0 4
 Suma de los dígitos pares: 10
-
 ```
 
 ### Ejercicio 33
@@ -435,24 +433,19 @@ Suma de los dígitos pares: 10
 Realiza un programa que pinte la letra U por pantalla hecha con asteriscos. El programa pedirá la altura. Fíjate que el programa inserta un espacio y pinta dos asteriscos menos en la base para simular la curvatura de las esquinas inferiores.
 
 ```
-
 Ejemplo 1:
 Introduzca la altura de la U: 5
-
--   -
--   -
--   -
--   -
-
----
-
+*   *
+*   *
+*   *
+*   *
+ ***
 Ejemplo 2:
 Introduzca la altura de la U: 4
-
--   -
--   -
--   -   \*\*
-
+*  *
+*  *
+*  *
+ **
 ```
 
 ### Ejercicio 34
@@ -460,7 +453,6 @@ Introduzca la altura de la U: 4
 Escribe un programa que pida dos números por teclado y que luego mezcle en dos números diferentes los dígitos pares y los impares. Se van comprobando los dígitos de la siguiente manera: primer dígito del primer número, primer dígito del segundo número, segundo dígito del primer número, segundo dígito del segundo número, tercer dígito del primer número… Para facilitar el ejercicio, podemos suponer que el usuario introducirá dos números de la misma longitud y que siempre habrá al menos un dígito par y uno impar. Usa long en lugar de int donde sea necesario para admitir números largos.
 
 ```
-
 Ejemplo 1:
 Por favor, introduzca un número: 9402
 Introduzca otro número: 6782
@@ -472,7 +464,6 @@ Por favor, introduzca un número: 137
 Introduzca otro número: 909
 El número formado por los dígitos pares es 0
 El número formado por los dígitos impares es 19379
-
 ```
 
 ### Ejercicio 35
@@ -480,7 +471,6 @@ El número formado por los dígitos impares es 19379
 Realiza un programa que pinte una X hecha de asteriscos. El programa debe pedir la altura. Se debe comprobar que la altura sea un número impar mayor o igual a 3, en caso contrario se debe mostrar un mensaje de error.
 
 ```
-
 Ejemplo:
 Por favor, introduzca la altura de la X: 5
 
@@ -489,7 +479,6 @@ Por favor, introduzca la altura de la X: 5
 -
 -   -
 -   -
-
 ```
 
 ### Ejercicio 36
