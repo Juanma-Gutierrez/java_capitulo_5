@@ -22,7 +22,6 @@ public class Ejercicio34 {
             num /= 10;
         }
         return rotateNum;
-
     }
 
     public static void main(String[] args) {
