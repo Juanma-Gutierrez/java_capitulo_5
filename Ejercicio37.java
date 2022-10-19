@@ -25,7 +25,7 @@ public class Ejercicio37 {
     }
 
     public static void main(String[] args) {
-        // Vars definition
+        // Var declarations
         long num;
         long rotatedNum;
 

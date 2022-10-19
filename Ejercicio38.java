@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 public class Ejercicio38 {
     public static void main(String[] args) {
-        // Vars definition
+        // Var declarations
         int height;
 
         // Scanner class

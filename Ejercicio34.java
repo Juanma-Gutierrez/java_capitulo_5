@@ -25,7 +25,7 @@ public class Ejercicio34 {
     }
 
     public static void main(String[] args) {
-        // Var definitions
+        // Var declarations
         long num1;
         long rotateNum1;
         long num2;
@@ -33,7 +33,7 @@ public class Ejercicio34 {
         long resPair;
         long resOdd;
 
-        // Vars init
+        // Var init
         resPair = 0;
         resOdd = 0;
         rotateNum1 = 0;

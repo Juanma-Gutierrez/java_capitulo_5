@@ -11,11 +11,11 @@ import java.util.Scanner;
 
 public class Ejercicio35 {
     public static void main(String[] args) {
-        // Vars definition
+        // Var declarations
         int height;
         boolean right;
 
-        // Vars init
+        // Var init
         right = true;
 
         // Scanner class

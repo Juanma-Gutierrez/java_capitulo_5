@@ -11,13 +11,13 @@ import java.util.Scanner;
 
 public class Ejercicio36 {
     public static void main(String[] args) {
-        // Vars definition
+        // Var declarations
         int num;
         int longNum;
         boolean cap;
         int neg;
 
-        // Vars init
+        // Var init
         cap = true;
 
         // Scanner class

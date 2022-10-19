@@ -11,12 +11,12 @@ import java.util.Scanner;
 
 public class Ejercicio32 {
     public static void main(String[] args) {
-        // Vars definition
+        // Var declarations
         int num;
         int rotateNum;
         int pairSum;
 
-        // Vars init
+        // Var init
         pairSum = 0;
         rotateNum = 0;
 
