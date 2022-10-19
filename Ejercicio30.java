@@ -40,6 +40,9 @@ public class Ejercicio30 {
         hourFinal = sc.nextInt();
 
         // Process
+        if (dayFinal < dayInit) {
+            dayFinal += 7;
+        }
         if (hourFinal < hourInit) {
             if (dayFinal <= dayInit) {
                 System.out.print("Has introducido datos incorrectos.");
