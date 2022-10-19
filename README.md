@@ -474,11 +474,11 @@ Realiza un programa que pinte una X hecha de asteriscos. El programa debe pedir 
 Ejemplo:
 Por favor, introduzca la altura de la X: 5
 
--   -
--   -
--
--   -
--   -
+X   X
+ X X
+  X
+ X X
+X   X
 ```
 
 ### Ejercicio 36
