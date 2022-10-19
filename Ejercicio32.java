@@ -44,7 +44,10 @@ public class Ejercicio32 {
             rotateNum /= 10;
         } while (rotateNum > 0);
 
-        System.out.print("\nSuma de los dígitos pares: " + pairSum);
+        if (pairSum > 0)
+            System.out.print("\nSuma de los dígitos pares: " + pairSum);
+        else
+            System.out.print("\nNo existe ningún dígito par");
 
         sc.close();
     }
