@@ -18,7 +18,7 @@ public class Ejercicio38 {
         Scanner sc = new Scanner(System.in);
 
         // Input data
-        System.out.print("Por favor, introduzca un número entero positivo: ");
+        System.out.print("Por favor, introduzca la altura del reloj de arena: ");
         height = sc.nextInt();
 
         if (height % 2 == 0 || height < 3) {
@@ -45,5 +45,6 @@ public class Ejercicio38 {
                 System.out.println();
             }
         }
+        sc.close();
     }
 }
