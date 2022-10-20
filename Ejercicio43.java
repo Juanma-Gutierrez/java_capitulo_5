@@ -11,7 +11,7 @@ import java.util.Scanner;
 
 public class Ejercicio43 {
     public static long rotateNum(long num) {
-        // Rotate number 2
+        // Rotate number
         long rotateNum;
 
         rotateNum = 0;

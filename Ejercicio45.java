@@ -1,15 +1,15 @@
 
 /**
- * Exercise: 44
+ * Exercise: 45
  * 
- * @version: 20/10/2022 12:30
+ * @version: 20/10/2022 12:41
  * @author: Juan Manuel Gutiérrez
  *          https://github.com/Juanma-Gutierrez
  */
 
 import java.util.Scanner;
 
-public class Ejercicio44 {
+public class Ejercicio45 {
     public static long rotateNum(long num) {
         // Rotate number
         long rotateNum;
@@ -43,9 +43,9 @@ public class Ejercicio44 {
         // Input data
         System.out.print("Por favor, introduzca un número entero positivo: ");
         num = sc.nextInt();
-        System.out.print("Introduzca la posición donde quiere insertar: ");
+        System.out.print("Introduzca la posición dentro del número: ");
         pos = sc.nextInt();
-        System.out.print("Introduzca el dígito que quiere insertar: ");
+        System.out.print("Introduzca el nuevo dígito: ");
         numToInsert = sc.nextInt();
 
         // Process
@@ -55,11 +55,10 @@ public class Ejercicio44 {
             rev = rotateNum(num);
 
             do {
-                if (cont == pos) {
+                if (cont == pos - 1) {
                     newNum *= 10;
                     newNum += numToInsert;
-                    newNum *= 10;
-                    newNum += rev % 10;
+
                 } else {
                     newNum *= 10;
                     newNum += rev % 10;
