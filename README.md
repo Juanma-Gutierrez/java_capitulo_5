@@ -592,14 +592,11 @@ Por favor, introduzca un número entero positivo: 17
 
 Escribe un programa que permita partir un número introducido por teclado en dos partes. Las posiciones se cuentan de izquierda a derecha empezando por el 1. Suponemos que el usuario introduce correctamente los datos, es decir, el número introducido tiene dos dígitos como mínimo y la posición en la que se parte el número está entre 2 y la longitud del número. No se permite en este ejercicio el uso de funciones de manejo de String (por ej. para extraer subcadenas dentro de una cadena).
 
-
 ```
-
 Ejemplo:
 Por favor, introduzca un número entero positivo: 406783
 Introduzca la posición a partir de la cual quiere partir el número: 5
 Los números partidos son el 4067 y el 83.
-
 ```
 
 ### Ejercicio 44
@@ -607,13 +604,11 @@ Los números partidos son el 4067 y el 83.
 Escribe un programa que sea capaz de insertar un dígito dentro de un número indicando la posición. El nuevo dígito se colocará en la posición indicada y el resto de dígitos se desplazará hacia la derecha. Las posiciones se cuentan de izquierda a derecha empezando por el 1. Suponemos que el usuario introduce correctamente los datos. Se recomienda usar long en lugar de int ya que el primero admite números más largos.
 
 ```
-
 Ejemplo:
 Por favor, introduzca un número entero positivo: 406783
 Introduzca la posición donde quiere insertar: 3
 Introduzca el dígito que quiere insertar: 5
 El número resultante es 4056783.
-
 ```
 
 ### Ejercicio 45
@@ -621,13 +616,11 @@ El número resultante es 4056783.
 Escribe un programa que cambie un dígito dentro de un número dando la posición y el valor nuevo. Las posiciones se cuentan de izquierda a derecha empezando por el 1. Se recomienda usar long en lugar de int ya que el primero admite números más largos. Suponemos que el usuario introduce correctamente los datos.
 
 ```
-
 Ejemplo:
 Por favor, introduzca un número entero positivo: 406783
 Introduzca la posición dentro del número: 3
 Introduzca el nuevo dígito: 1
 El número resultante es 401783
-
 ```
 
 ### Ejercicio 46
@@ -635,7 +628,6 @@ El número resultante es 401783
 Realiza un programa que pinte por pantalla un rectángulo hueco hecho con asteriscos. Se debe pedir al usuario la anchura y la altura. Hay que comprobar que tanto la anchura como la altura sean mayores o iguales que 2, en caso contrario se debe mostrar un mensaje de error.
 
 ```
-
 Ejemplo 1:
 Por favor, introduzca la anchura del rectángulo (como mínimo 2): 4
 Ahora introduzca la altura (como mínimo 2): 1
@@ -646,12 +638,10 @@ Ejemplo 2:
 Por favor, introduzca la anchura del rectángulo (como mínimo 2): 6
 Ahora introduzca la altura (como mínimo 2): 4
 
----
-
--   -
--   -
-
----
+XXXXXX
+X    X
+X    X
+XXXXXX
 
 ```
 
@@ -749,50 +739,36 @@ Ejemplo 1:
 Introduzca la altura (5 como mínimo): 5
 Introduzca el número de espacios entre los números (1 como mínimo): 2
 
----
+X  XXXX  XXXX
+X  X     X
+X  XXXX  XXXX
+X     X     X
+X  XXXX  XXXX
 
----
-
----
-
----
-
----
 
 Ejemplo 2:
 
 Introduzca la altura (5 como mínimo): 7
 Introduzca el número de espacios entre los números (1 como mínimo): 3
 
----
-
----
-
----
-
----
-
----
-
----
-
----
+X   XXXX   XXXX
+X   X      X
+X   XXXX   XXXX
+X      X      X
+X      X      X
+X      X      X
+X   XXXX   XXXX
 
 Ejemplo 3:
 Introduzca la altura (5 como mínimo): 6 Introduzca el número de
 espacios entre los números (1 como mínimo): 1
 
----
-
----
-
----
-
----
-
----
-
----
+X XXXX XXXX
+X X    X
+X XXXX XXXX
+X    X    X
+X    X    X
+X XXXX XXXX
 
 ```
 
@@ -845,34 +821,23 @@ Realiza un programa que pinte un triángulo relleno tal como se muestra en los e
 Ejemplo 1:
 Introduzca la altura de la figura: 8
 
----
-
----
-
----
-
----
-
----
-
----
-
-\*\*
-
--
+XXXXXXXX
+XXXXXXX
+XXXXXX
+XXXXX
+XXXX
+XXX
+XX
+X
 
 Ejemplo 2:
 Introduzca la altura de la figura: 5
 
----
-
----
-
----
-
-\*\*
-
--
+XXXXX
+XXXX
+XXX
+XX
+X
 
 ```
 
@@ -885,23 +850,23 @@ Realiza un programa que pinte un triángulo hueco tal como se muestra en los eje
 Ejemplo 1:
 Introduzca la altura de la figura: 8
 
----
-
--           *
--   -
--   -
--   -
--   -   \*\*
--
+XXXXXXXX
+X     X
+X    X
+X   X
+X  X
+X X
+XX
+X
 
 Ejemplo 2:
 Introduzca la altura de la figura: 5
 
----
-
--   -
--   -   \*\*
--
+XXXXX
+X  X
+X X
+XX
+X
 
 ```
 
@@ -938,29 +903,23 @@ Realiza un programa que pinte un triángulo relleno tal como se muestra en los e
 Ejemplo 1:
 Introduzca la altura de la figura: 8
 
----
-
----
-
----
-
----
-
-    ****
-     ***
-      **
-       *
+XXXXXXXX
+ XXXXXXX
+  XXXXXX
+   XXXXX
+    XXXX
+     XXX
+      XX
+       X
 
 Ejemplo 2:
 Introduzca la altura de la figura: 5
 
----
-
----
-
----
-
-\*\* \*
+XXXXX
+ XXXX
+  XXX
+   XX
+    X
 
 ```
 
@@ -973,21 +932,23 @@ Realiza un programa que pinte un triángulo hueco tal como se muestra en los eje
 Ejemplo 1:
 Introduzca la altura de la figura: 8
 
----
-
--           *
--   -
--   -
--   -
--   -   ## \*\*
+XXXXXXXX
+ X     X
+  X    X
+   X   X
+    X  X
+     X X
+      XX
+       X
 
 Ejemplo 2:
 Introduzca la altura de la figura: 5
 
----
-
--   -
--   -   ## \*\*
+XXXXX
+ X  X
+  X X
+   XX
+    X
 
 ```
 
@@ -1022,32 +983,36 @@ Escribe un programa que pinte por pantalla un árbol de navidad. El usuario debe
 ```
 
 Ejemplo 1:
-Por favor, introduzca la altura del árbol: 7 \*
-^
-^ ^
-^ ^
-^ ^
+Por favor, introduzca la altura del árbol: 7
+    O
+    ^
+   ^ ^
+  ^   ^
+ ^     ^
 ^^^^^^^^^
-Y
+    Y
+
 
 Ejemplo 2:
 Por favor, introduzca la altura del árbol: 4
 
--   ^
-    ^^^
-    Y
+ O
+ ^
+^^^
+ Y
 
 Ejemplo 3:
-Por favor, introduzca la altura del árbol: 10 \*
-^
-^ ^
-^ ^
-^ ^
-^ ^
-^ ^
-^ ^
+Por favor, introduzca la altura del árbol: 10
+       O
+       ^
+      ^ ^
+     ^   ^
+    ^     ^
+   ^       ^
+  ^         ^
+ ^           ^
 ^^^^^^^^^^^^^^^
-Y
+       Y
 
 ```
 
@@ -1059,52 +1024,32 @@ Escribe un programa que pinte por pantalla un par de calcetines, de los que se p
 
 Ejemplo 1:
 Introduzca la altura de los calcetines: 7
-
----
-
----
-
----
-
----
-
----
-
----
-
----
+XXX     XXX
+XXX     XXX
+XXX     XXX
+XXX     XXX
+XXX     XXX
+XXXXXX  XXXXXX
+XXXXXX  XXXXXX
 
 Ejemplo 2:
 Introduzca la altura de los calcetines: 4
-
----
-
----
-
----
-
----
+XXX     XXX
+XXX     XXX
+XXXXXX  XXXXXX
+XXXXXX  XXXXXX
 
 Ejemplo 3:
 Introduzca la altura de los calcetines: 9
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
+XXX     XXX
+XXX     XXX
+XXX     XXX
+XXX     XXX
+XXX     XXX
+XXX     XXX
+XXX     XXX
+XXXXXX  XXXXXX
+XXXXXX  XXXXXX
 
 ```
 
@@ -1116,46 +1061,33 @@ Escribe un programa que pinte por pantalla la letra V. El ancho del palo de la V
 
 Ejemplo 1:
 Introduzca la altura de la V (un número mayor o igual a 3): 7
-
----
-
----
-
----
-
----
-
-    ***    ***
-     ***  ***
-      ******
+XXX            XXX
+ XXX          XXX
+  XXX        XXX
+   XXX      XXX
+    XXX    XXX
+     XXX  XXX
+      XXXXXX
 
 Ejemplo 2:
 Introduzca la altura de la V (un número mayor o igual a 3): 4
 
----
-
----
-
----
-
----
+XXX      XXX
+ XXX    XXX
+  XXX  XXX
+   XXXXXX
 
 Ejemplo 3:
 Introduzca la altura de la V (un número mayor o igual a 3): 9
-
----
-
----
-
----
-
----
-
-    ***        ***
-     ***      ***
-      ***    ***
-       ***  ***
-        ******
+XXX                XXX
+ XXX              XXX
+  XXX            XXX
+   XXX          XXX
+    XXX        XXX
+     XXX      XXX
+      XXX    XXX
+       XXX  XXX
+        XXXXXX
 
 Ejemplo 4:
 Introduzca la altura de la V (un número mayor o igual a 3): 2
@@ -1203,29 +1135,23 @@ Realiza un programa que pinte dos pirámides rellenas hechas con asteriscos, una
 
 Ejemplo 1:
 Introduzca la altura de la primera pirámide: 7
-Introduzca la altura de la segunda pirámide: 3 \*
-**\*
-\*\*\***
-
----
-
----
-
----
-
----
+Introduzca la altura de la segunda pirámide: 3
+      X
+     XXX
+    XXXXX
+   XXXXXXX
+  XXXXXXXXX     X
+ XXXXXXXXXXX   XXX
+XXXXXXXXXXXXX XXXXX
 
 Ejemplo 2:
 Introduzca la altura de la primera pirámide: 4
-Introduzca la altura de la segunda pirámide: 5 \*
-
----
-
----
-
----
-
----
+Introduzca la altura de la segunda pirámide: 5
+            X
+   X       XXX
+  XXX     XXXXX
+ XXXXX   XXXXXXX
+XXXXXXX XXXXXXXXX
 
 ```
 
@@ -1237,64 +1163,50 @@ Escribe un programa que pinte por pantalla un rectángulo hueco de 6 caracteres 
 
 Ejemplo:
 
----
-
--   -
-
----
-
+XXXXXX
+X    X
+XXXXXX
 1. Agrandarlo
 2. Achicarlo
 3. Cambiar la orientación
 4. Salir
-   Indique qué quiere hacer con el rectángulo: 2
+Indique qué quiere hacer con el rectángulo: 2
 
----
-
----
-
+XXXX
+XXXX
 1. Agrandarlo
 2. Achicarlo
 3. Cambiar la orientación
 4. Salir
-   Indique qué quiere hacer con el rectángulo: 2
+Indique qué quiere hacer con el rectángulo: 2
 
----
-
----
-
+XXXX
+XXXX
 1. Agrandarlo
 2. Achicarlo
 3. Cambiar la orientación
 4. Salir
-   Indique qué quiere hacer con el rectángulo: 1
+Indique qué quiere hacer con el rectángulo: 1
 
----
-
--   -
-
----
-
+XXXXXX
+X    X
+XXXXXX
 1. Agrandarlo
 2. Achicarlo
 3. Cambiar la orientación
 4. Salir
-   Indique qué quiere hacer con el rectángulo: 3
+Indique qué quiere hacer con el rectángulo: 3
 
----
-
--   -
--   -
--   -
--   -
-
----
-
+XXX
+X X
+X X
+X X
+XXX
 1. Agrandarlo
 2. Achicarlo
 3. Cambiar la orientación
 4. Salir
-   Indique qué quiere hacer con el rectángulo: 4
+Indique qué quiere hacer con el rectángulo: 4
 
 ```
 
@@ -1303,28 +1215,27 @@ Ejemplo:
 Escribe un programa que pinte por pantalla la letra A. El usuario debe introducir la altura total y la fila en la que debe aparecer el palito horizontal (contando desde el vértice). La altura mínima es de 3 pisos. La fila donde va el palito horizontal debe ser mayor que 1 y menor que la altura total. Si el usuario introduce algún dato incorrecto, el programa debe mostrar un mensaje de error.
 
 ```
-
 Ejemplo 1:
 Introduzca la altura de la A (un número mayor o igual a 3): 7
-Introduzca la fila del palito horizontal (entre 2 y 6): 5 \* \* \* \* \*
-
--           *
-
----
-
--               *
--                 *
+Introduzca la fila del palito horizontal (entre 2 y 6): 5 
+      X
+     X X
+    X   X
+   X     X
+  XXXXXXXXX
+ X         X
+X           X
 
 Ejemplo 2:
 Introduzca la altura de la A (un número mayor o igual a 3): 7
-Introduzca la fila del palito horizontal (entre 2 y 6): 6 \* \* \* \* \*
-
--           *
--             *
-
----
-
--                 *
+Introduzca la fila del palito horizontal (entre 2 y 6): 6 
+      X
+     X X
+    X   X
+   X     X
+  X       X
+ XXXXXXXXXXX
+X           X
 
 Ejemplo 3:
 Introduzca la altura de la A (un número mayor o igual a 3): 7
@@ -1338,22 +1249,19 @@ La altura introducida no es correcta.
 Ejemplo 5:
 Introduzca la altura de la A (un número mayor o igual a 3): 4
 Introduzca la fila del palito horizontal (entre 2 y 3): 2
-
--   ***
-
--   -
--           *
+   X
+  XXX
+ X   X
+X     X
 
 Ejemplo 1:
 Introduzca la altura de la A (un número mayor o igual a 3): 5
-Introduzca la fila del palito horizontal (entre 2 y 4): 4 \*
-
--   -
--   -
-
----
-
--             *
+Introduzca la fila del palito horizontal (entre 2 y 4): 4
+    X
+   X X
+  X   X
+ XXXXXXX
+X       X
 
 ```
 
@@ -1365,21 +1273,20 @@ La Guardia Civil de Tráfico nos ha encargado un programa que pinte una señal p
 
 Ejemplo 1:
 Por favor, introduzca la altura de la figura: 7
-
--           *
--           *
--           *
--           *
--           *
--           *
--           *
+X      X
+ X      X
+  X      X
+   X      X
+  X      X
+ X      X
+X      X
 
 Ejemplo 2:
 Por favor, introduzca la altura de la figura: 3
 
--           *
--           *
--           *
+X      X
+ X      X
+X      X
 
 Ejemplo 3:
 Por favor, introduzca la altura de la figura: 4
@@ -1396,44 +1303,27 @@ Realiza un programa que pinte una escalera que va descendiendo de izquierda a de
 Ejemplo 1:
 Introduzca el número de escalones: 4
 Introduzca la altura de cada escalón: 2
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
+XXXX
+XXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXXXXXX
+XXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
+XXXXXXXXXXXXXXXX
 
 Ejemplo 2:
 Introduzca el número de escalones: 3
 Introduzca la altura de cada escalón: 3
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
-
----
+XXXX
+XXXX
+XXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXX
+XXXXXXXXXXXX
+XXXXXXXXXXXX
+XXXXXXXXXXXX
 
 ```
 
@@ -1465,37 +1355,20 @@ Realiza un programa que pinte una pirámide maya. Por los lados, se trata de una
 
 Ejemplo 1:
 Introduzca la altura de la pirámide maya: 5
-
-    ******
-
----
-
----
-
----
-
----
+    XXXXXX
+   XX    XX
+  XXXXXXXXXX
+ XXXX    XXXX
+XXXXXXXXXXXXXX
 
 Ejemplo 2:
 Introduzca la altura de la pirámide maya: 8
-**\*\***
-\*\* \*\*
-**\*\*\*\*\*\*** \***\* \*\***
-
----
-
----
-
----
-
----
-
-```
-
-```
-
-```
-
-```
-
+       XXXXXX
+      XX    XX
+     XXXXXXXXXX
+    XXXX    XXXX
+   XXXXXXXXXXXXXX
+  XXXXXX    XXXXXX
+ XXXXXXXXXXXXXXXXXX
+XXXXXXXX    XXXXXXXX
 ```
