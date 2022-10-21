@@ -22,8 +22,8 @@ public class Ejercicio49 {
         // Var init
         sum = 0;
         count = 0;
-        min = 2147483647;
-        max = 0;
+        min = Integer.MAX_VALUE;
+        max = Integer.MIN_VALUE;
 
         // Scanner class
         Scanner sc = new Scanner(System.in);
