@@ -37,14 +37,8 @@ public class Ejercicio63 {
 
         // Process
         for (int i = 1; i <= maxHeight; i++) {
-            System.out.print(i + " ");
-
             if (height1 == maxHeight) {
                 // First pryramid higher
-                for (int j = 0; j < maxHeight - height1; j++) {
-                    System.out.print("1");
-                }
-
                 // Pryramid1
                 for (int j = 0; j < maxHeight - i; j++)
                     System.out.print(" ");
