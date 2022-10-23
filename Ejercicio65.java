@@ -58,6 +58,6 @@ public class Ejercicio65 {
             }
         }
 
-        sc.nextLine();
+        sc.close();
     }
 }
