@@ -13,9 +13,7 @@ public class Ejercicio44 {
     public static long rotateNum(long num) {
         // Rotate number
         long rotateNum;
-
         rotateNum = 0;
-
         while (num > 0) {
             rotateNum *= 10;
             rotateNum += num % 10;
