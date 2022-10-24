@@ -73,7 +73,6 @@ public class Ejercicio34 {
                 resOdd += rotateNum2 % 10;
                 rotateNum2 /= 10;
             }
-
         } while (rotateNum1 > 0 || rotateNum2 > 0);
 
         // Output results
