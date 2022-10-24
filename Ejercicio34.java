@@ -27,11 +27,11 @@ public class Ejercicio34 {
         long rotateNum1;
         long num2;
         long rotateNum2;
-        long resPair;
+        long resEven;
         long resOdd;
 
         // Var init
-        resPair = 0;
+        resEven = 0;
         resOdd = 0;
         rotateNum1 = 0;
         rotateNum2 = 0;
@@ -53,8 +53,8 @@ public class Ejercicio34 {
         // Create new numbers
         do {
             if (rotateNum1 % 2 == 0) {
-                resPair *= 10;
-                resPair += rotateNum1 % 10;
+                resEven *= 10;
+                resEven += rotateNum1 % 10;
                 rotateNum1 /= 10;
             } else {
                 resOdd *= 10;
@@ -62,8 +62,8 @@ public class Ejercicio34 {
                 rotateNum1 /= 10;
             }
             if (rotateNum2 % 2 == 0) {
-                resPair *= 10;
-                resPair += rotateNum2 % 10;
+                resEven *= 10;
+                resEven += rotateNum2 % 10;
                 rotateNum2 /= 10;
             } else {
                 resOdd *= 10;
@@ -73,7 +73,7 @@ public class Ejercicio34 {
         } while (rotateNum1 > 0 || rotateNum2 > 0);
 
         // Output results
-        System.out.println("El número formado por los dígitos pares es " + resPair);
+        System.out.println("El número formado por los dígitos pares es " + resEven);
         System.out.println("El número formado por los dígitos impares es " + resOdd);
         sc.close();
     }

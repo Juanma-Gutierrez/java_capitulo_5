@@ -14,10 +14,10 @@ public class Ejercicio32 {
         // Var declarations
         int num;
         int rotateNum;
-        int pairSum;
+        int evenSum;
 
         // Var init
-        pairSum = 0;
+        evenSum = 0;
         rotateNum = 0;
 
         // Scanner class
@@ -39,13 +39,13 @@ public class Ejercicio32 {
         do {
             if (rotateNum % 2 == 0) {
                 System.out.print((rotateNum % 10) + " ");
-                pairSum += rotateNum % 10;
+                evenSum += rotateNum % 10;
             }
             rotateNum /= 10;
         } while (rotateNum > 0);
 
-        if (pairSum > 0)
-            System.out.print("\nSuma de los dígitos pares: " + pairSum);
+        if (evenSum > 0)
+            System.out.print("\nSuma de los dígitos pares: " + evenSum);
         else
             System.out.print("\nNo existe ningún dígito par");
 

@@ -14,11 +14,11 @@ public class Ejercicio41 {
         // Var declarations
         int num;
         int temp;
-        int pairCount;
+        int evenCount;
         int oddCount;
 
         // Var init
-        pairCount = 0;
+        evenCount = 0;
         oddCount = 0;
 
         // Scanner class
@@ -32,14 +32,14 @@ public class Ejercicio41 {
         // Process
         do {
             if (temp % 2 == 0)
-                pairCount++;
+                evenCount++;
             else
                 oddCount++;
             temp /= 10;
         } while (temp > 0);
 
         // Output data
-        System.out.print("El " + num + " contiene " + pairCount + " dígitos pares y " + oddCount + " dígitos impares.");
+        System.out.print("El " + num + " contiene " + evenCount + " dígitos pares y " + oddCount + " dígitos impares.");
 
         sc.close();
     }
