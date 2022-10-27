@@ -7,13 +7,10 @@
  *          https://github.com/Juanma-Gutierrez
  */
 
-<<<<<<< HEAD
 /*
  * Escribe un programa que pinte por pantalla un par de calcetines, de los que se ponen al lado del árbol de Navidad para que Papá Noel deje sus regalos. El usuario debe introducir la altura. Suponemos que el usuario introduce una altura mayor o igual a 4. Observa que la talla de los calcetines y la distancia que hay entre ellos (dos espacios) no cambia, lo único que varía es la altura.
  */
 
-=======
->>>>>>> 4d954ae2b1fdf656202543356f96dbd830b1bbcc
 import java.util.Scanner;
 
 public class Ejercicio60 {

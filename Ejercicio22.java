@@ -6,13 +6,10 @@
  *          https://github.com/Juanma-Gutierrez
  */
 
-<<<<<<< HEAD
 /*
  * Muestra por pantalla todos los números primos entre 2 y 100, ambos incluidos.
  */
 
-=======
->>>>>>> 4d954ae2b1fdf656202543356f96dbd830b1bbcc
 public class Ejercicio22 {
     public static void main(String[] args) {
         boolean prime;

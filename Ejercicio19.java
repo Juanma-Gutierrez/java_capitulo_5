@@ -7,13 +7,10 @@
  *          https://github.com/Juanma-Gutierrez
  */
 
-<<<<<<< HEAD
 /*
  * Realiza un programa que pinte una pirámide por pantalla. La altura se debe pedir por teclado. El carácter con el que se pinta la pirámide también se debe pedir por teclado.
  */
 
-=======
->>>>>>> 4d954ae2b1fdf656202543356f96dbd830b1bbcc
 import java.util.Scanner;
 
 public class Ejercicio19 {

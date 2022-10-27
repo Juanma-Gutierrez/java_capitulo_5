@@ -7,13 +7,10 @@
  *          https://github.com/Juanma-Gutierrez
  */
 
-<<<<<<< HEAD
 /*
  * Escribe un programa que lea un número n e imprima una pirámide de números con n filas como en la siguiente figura:
  */
 
-=======
->>>>>>> 4d954ae2b1fdf656202543356f96dbd830b1bbcc
 import java.util.Scanner;
 
 public class Ejercicio24 {

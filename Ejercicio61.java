@@ -7,13 +7,10 @@
  *          https://github.com/Juanma-Gutierrez
  */
 
-<<<<<<< HEAD
 /*
  * Escribe un programa que pinte por pantalla la letra V. El ancho del palo de la V es siempre de 3 asteriscos. El usuario debe introducir la altura. La altura mínima es de 3 pisos. Si el usuario introduce una altura menor, el programa debe mostrar un mensaje de error.
  */
 
-=======
->>>>>>> 4d954ae2b1fdf656202543356f96dbd830b1bbcc
 import java.util.Scanner;
 
 public class Ejercicio61 {

@@ -7,13 +7,10 @@
  *          https://github.com/Juanma-Gutierrez
  */
 
-<<<<<<< HEAD
 /*
 * Escribe un programa que, dado un número entero positivo, diga cuáles son y cuánto suman los dígitos pares. Los dígitos pares se deben mostrar en orden, de izquierda a derecha. Usa long en lugar de int donde sea necesario para admitir números largos.
 */
 
-=======
->>>>>>> 4d954ae2b1fdf656202543356f96dbd830b1bbcc
 import java.util.Scanner;
 
 public class Ejercicio32 {
@@ -21,17 +18,10 @@ public class Ejercicio32 {
         // Var declarations
         int num;
         int rotateNum;
-<<<<<<< HEAD
-        int pairSum;
-
-        // Var init
-        pairSum = 0;
-=======
         int evenSum;
 
         // Var init
         evenSum = 0;
->>>>>>> 4d954ae2b1fdf656202543356f96dbd830b1bbcc
         rotateNum = 0;
 
         // Scanner class
@@ -53,22 +43,13 @@ public class Ejercicio32 {
         do {
             if (rotateNum % 2 == 0) {
                 System.out.print((rotateNum % 10) + " ");
-<<<<<<< HEAD
-                pairSum += rotateNum % 10;
-=======
                 evenSum += rotateNum % 10;
->>>>>>> 4d954ae2b1fdf656202543356f96dbd830b1bbcc
             }
             rotateNum /= 10;
         } while (rotateNum > 0);
 
-<<<<<<< HEAD
-        if (pairSum > 0)
-            System.out.print("\nSuma de los dígitos pares: " + pairSum);
-=======
         if (evenSum > 0)
             System.out.print("\nSuma de los dígitos pares: " + evenSum);
->>>>>>> 4d954ae2b1fdf656202543356f96dbd830b1bbcc
         else
             System.out.print("\nNo existe ningún dígito par");
 

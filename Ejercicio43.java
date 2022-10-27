@@ -1,7 +1,7 @@
 
 /**
  * Exercise: 43
-<<<<<<< HEAD
+
  *
 =======
  * 
@@ -11,26 +11,17 @@
  *          https://github.com/Juanma-Gutierrez
  */
 
-<<<<<<< HEAD
 /*
  * Escribe un programa que permita partir un número introducido por teclado en dos partes. Las posiciones se cuentan de izquierda a derecha empezando por el 1. Suponemos que el usuario introduce correctamente los datos, es decir, el número introducido tiene dos dígitos como mínimo y la posición en la que se parte el número está entre 2 y la longitud del número. No se permite en este ejercicio el uso de funciones de manejo de String (por ej. para extraer subcadenas dentro de una cadena).
  */
 
-=======
->>>>>>> 4d954ae2b1fdf656202543356f96dbd830b1bbcc
 import java.util.Scanner;
 
 public class Ejercicio43 {
     public static long rotateNum(long num) {
         // Rotate number
         long rotateNum;
-<<<<<<< HEAD
-
         rotateNum = 0;
-
-=======
-        rotateNum = 0;
->>>>>>> 4d954ae2b1fdf656202543356f96dbd830b1bbcc
         while (num > 0) {
             rotateNum *= 10;
             rotateNum += num % 10;

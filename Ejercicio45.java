@@ -7,26 +7,17 @@
  *          https://github.com/Juanma-Gutierrez
  */
 
-<<<<<<< HEAD
 /*
  * Escribe un programa que cambie un dígito dentro de un número dando la posición y el valor nuevo. Las posiciones se cuentan de izquierda a derecha empezando por el 1. Se recomienda usar long en lugar de int ya que el primero admite números más largos. Suponemos que el usuario introduce correctamente los datos.
  */
 
-=======
->>>>>>> 4d954ae2b1fdf656202543356f96dbd830b1bbcc
-import java.util.Scanner;
+ import java.util.Scanner;
 
 public class Ejercicio45 {
     public static long rotateNum(long num) {
         // Rotate number
         long rotateNum;
-<<<<<<< HEAD
-
         rotateNum = 0;
-
-=======
-        rotateNum = 0;
->>>>>>> 4d954ae2b1fdf656202543356f96dbd830b1bbcc
         while (num > 0) {
             rotateNum *= 10;
             rotateNum += num % 10;

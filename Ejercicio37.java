@@ -7,27 +7,20 @@
  *          https://github.com/Juanma-Gutierrez
  */
 
-<<<<<<< HEAD
 /*
  * Realiza un conversor del sistema decimal al sistema de “palotes”.
  */
 
-=======
->>>>>>> 4d954ae2b1fdf656202543356f96dbd830b1bbcc
 import java.util.Scanner;
 
 public class Ejercicio37 {
     public static long rotateNum(long num) {
-<<<<<<< HEAD
+
         // Rotate number 2
         long rotateNum;
 
+        // Var init
         rotateNum = 0;
-
-=======
-        long rotateNum;
-        rotateNum = 0;
->>>>>>> 4d954ae2b1fdf656202543356f96dbd830b1bbcc
         while (num > 0) {
             rotateNum *= 10;
             rotateNum += num % 10;
