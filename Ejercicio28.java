@@ -7,6 +7,10 @@
  *          https://github.com/Juanma-Gutierrez
  */
 
+/*
+ * Escribe un programa que calcule el factorial de un número entero leído por teclado.
+ */
+
 import java.util.Scanner;
 
 public class Ejercicio28 {

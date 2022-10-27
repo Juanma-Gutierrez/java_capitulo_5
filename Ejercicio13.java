@@ -7,6 +7,10 @@
  *          https://github.com/Juanma-Gutierrez
  */
 
+/*
+ * Escribe un programa que lea una lista de diez números y determine cuántos son positivos, y cuántos son negativos.
+ */
+
 import java.util.Scanner;
 
 public class Ejercicio13 {

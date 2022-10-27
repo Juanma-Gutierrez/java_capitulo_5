@@ -7,6 +7,10 @@
  *          https://github.com/Juanma-Gutierrez
  */
 
+/*
+ * Igual que el ejercicio anterior pero esta vez se debe pintar una pirámide hueca.
+ */
+
 import java.util.Scanner;
 
 public class Ejercicio20 {

@@ -7,6 +7,10 @@
  *          https://github.com/Juanma-Gutierrez
  */
 
+/*
+ * Escribe un programa que pida un número entero positivo por teclado y que muestre a continuación los 5 números consecutivos a partir del número introducido. Al lado de cada número se debe indicar si se trata de un primo o no.
+ */
+
 import java.util.Scanner;
 
 public class Ejercicio42 {

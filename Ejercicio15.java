@@ -7,6 +7,10 @@
  *          https://github.com/Juanma-Gutierrez
  */
 
+/*
+ * Escribe un programa que dados dos números, uno real (base) y un entero positivo (exponente), saque por pantalla todas las potencias con base el numero dado y exponentes entre uno y el exponente introducido. No se deben utilizar funciones de exponenciación. Por ejemplo, si introducimos el 2 y el 5, se deberán mostrar 2<sup>1</sup>, 2<sup>2</sup>, 2<sup>3</sup>, 2<sup>4</sup> y 2<sup>5</sup>.
+ */
+
 import java.util.Scanner;
 
 public class Ejercicio15 {

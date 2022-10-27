@@ -7,6 +7,10 @@
  *          https://github.com/Juanma-Gutierrez
  */
 
+/*
+ * Escribe un programa que pida una base y un exponente (entero positivo) y que calcule la potencia.
+ */
+
 import java.util.Scanner;
 
 public class Ejercicio14 {

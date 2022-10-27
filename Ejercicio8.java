@@ -7,6 +7,10 @@
  *          https://github.com/Juanma-Gutierrez
  */
 
+/*
+ * Muestra la tabla de multiplicar de un número introducido por teclado.
+ */
+
 import java.util.Scanner;
 
 public class Ejercicio8 {
