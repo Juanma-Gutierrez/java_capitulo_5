@@ -7,10 +7,13 @@
  *          https://github.com/Juanma-Gutierrez
  */
 
+<<<<<<< HEAD
 /*
  * Escribe un programa que pida un número por teclado y que luego lo “disloque” de tal forma que a cada dígito se le suma 1 si es par y se le resta 1 si es impar. Usa long en lugar de int donde sea necesario para admitir números largos.
  */
 
+=======
+>>>>>>> 4d954ae2b1fdf656202543356f96dbd830b1bbcc
 import java.util.Scanner;
 
 public class Ejercicio68 {

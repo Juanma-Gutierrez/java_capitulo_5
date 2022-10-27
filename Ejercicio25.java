@@ -7,10 +7,13 @@
  *          https://github.com/Juanma-Gutierrez
  */
 
+<<<<<<< HEAD
 /*
  * Realiza un programa que pida un número por teclado y que luego muestre ese número al revés.
  */
 
+=======
+>>>>>>> 4d954ae2b1fdf656202543356f96dbd830b1bbcc
 import java.util.Scanner;
 
 public class Ejercicio25 {

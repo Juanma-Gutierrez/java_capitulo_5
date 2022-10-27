@@ -7,10 +7,13 @@
  *          https://github.com/Juanma-Gutierrez
  */
 
+<<<<<<< HEAD
 /*
  * Escribe un programa que pinte por pantalla un árbol de navidad. El usuario debe introducir la altura. En esa altura va incluida la estrella y el tronco. Suponemos que el usuario introduce una altura mayor o igual a 4.
  */
 
+=======
+>>>>>>> 4d954ae2b1fdf656202543356f96dbd830b1bbcc
 import java.util.Scanner;
 
 public class Ejercicio59 {

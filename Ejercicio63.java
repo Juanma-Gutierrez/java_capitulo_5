@@ -7,10 +7,13 @@
  *          https://github.com/Juanma-Gutierrez
  */
 
+<<<<<<< HEAD
 /*
  * Realiza un programa que pinte dos pirámides rellenas hechas con asteriscos, una al lado de la otra y separadas por un espacio en su base.
  */
 
+=======
+>>>>>>> 4d954ae2b1fdf656202543356f96dbd830b1bbcc
 import java.util.Scanner;
 
 public class Ejercicio63 {
