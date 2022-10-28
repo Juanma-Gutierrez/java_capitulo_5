@@ -1,12 +1,8 @@
 
 /**
  * Exercise: 10
-
-=======
- * 
->>>>>>> 4d954ae2b1fdf656202543356f96dbd830b1bbcc
  *
- * @version: 17/10/2022 17:44
+ * @version: 17/10/2022
  * @author: Juan Manuel Gutiérrez
  *          https://github.com/Juanma-Gutierrez
  */

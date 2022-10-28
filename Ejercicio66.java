@@ -2,7 +2,7 @@
 /**
  * Exercise: 66
  *
- * @version: 23/10/2022 10:44
+ * @version: 23/10/2022
  * @author: Juan Manuel Gutiérrez
  *          https://github.com/Juanma-Gutierrez
  */
