@@ -15,11 +15,7 @@ import java.util.Scanner;
 
 public class Ejercicio37 {
     public static long rotateNum(long num) {
-
-        // Rotate number 2
         long rotateNum;
-
-        // Var init
         rotateNum = 0;
         while (num > 0) {
             rotateNum *= 10;
