@@ -4,6 +4,78 @@ Soluciones a los ejercicios del libro **Aprende Java con ejercicios** de Luis Jo
 
 Este libro está a la venta en <https://leanpub.com/aprendejava>
 
+## Listado de ejercicios
+
+[01 Ejercicio 1](#ejercicio-1)
+[02 Ejercicio 2](#ejercicio-2)
+[03 Ejercicio 3](#ejercicio-3)
+[04 Ejercicio 4](#ejercicio-4)
+[05 Ejercicio 5](#ejercicio-5)
+[06 Ejercicio 6](#ejercicio-6)
+[07 Ejercicio 7](#ejercicio-7)
+[08 Ejercicio 8](#ejercicio-8)
+[09 Ejercicio 9](#ejercicio-9)
+[10 Ejercicio 10](#ejercicio-10)
+[11 Ejercicio 11](#ejercicio-11)
+[12 Ejercicio 12](#ejercicio-12)
+[13 Ejercicio 13](#ejercicio-13)
+[14 Ejercicio 14](#ejercicio-14)
+[15 Ejercicio 15](#ejercicio-15)
+[16 Ejercicio 16](#ejercicio-16)
+[17 Ejercicio 17](#ejercicio-17)
+[18 Ejercicio 18](#ejercicio-18)
+[19 Ejercicio 19](#ejercicio-19)
+[20 Ejercicio 20](#ejercicio-20)
+[21 Ejercicio 21](#ejercicio-21)
+[22 Ejercicio 22](#ejercicio-22)
+[23 Ejercicio 23](#ejercicio-23)
+[24 Ejercicio 24](#ejercicio-24)
+[25 Ejercicio 25](#ejercicio-25)
+[26 Ejercicio 26](#ejercicio-26)
+[27 Ejercicio 27](#ejercicio-27)
+[28 Ejercicio 28](#ejercicio-28)
+[29 Ejercicio 29](#ejercicio-29)
+[30 Ejercicio 30](#ejercicio-30)
+[31 Ejercicio 31](#ejercicio-31)
+[32 Ejercicio 32](#ejercicio-32)
+[33 Ejercicio 33](#ejercicio-33)
+[34 Ejercicio 34](#ejercicio-34)
+[35 Ejercicio 35](#ejercicio-35)
+[36 Ejercicio 36](#ejercicio-36)
+[37 Ejercicio 37](#ejercicio-37)
+[38 Ejercicio 38](#ejercicio-38)
+[39 Ejercicio 39](#ejercicio-39)
+[40 Ejercicio 40](#ejercicio-40)
+[41 Ejercicio 41](#ejercicio-41)
+[42 Ejercicio 42](#ejercicio-42)
+[43 Ejercicio 43](#ejercicio-43)
+[44 Ejercicio 44](#ejercicio-44)
+[45 Ejercicio 45](#ejercicio-45)
+[46 Ejercicio 46](#ejercicio-46)
+[47 Ejercicio 47](#ejercicio-47)
+[48 Ejercicio 48](#ejercicio-48)
+[49 Ejercicio 49](#ejercicio-49)
+[50 Ejercicio 50](#ejercicio-50)
+[51 Ejercicio 51](#ejercicio-51)
+[52 Ejercicio 52](#ejercicio-52)
+[53 Ejercicio 53](#ejercicio-53)
+[54 Ejercicio 54](#ejercicio-54)
+[55 Ejercicio 55](#ejercicio-55)
+[56 Ejercicio 56](#ejercicio-56)
+[57 Ejercicio 57](#ejercicio-57)
+[58 Ejercicio 58](#ejercicio-58)
+[59 Ejercicio 59](#ejercicio-59)
+[60 Ejercicio 60](#ejercicio-60)
+[61 Ejercicio 61](#ejercicio-61)
+[62 Ejercicio 62](#ejercicio-62)
+[63 Ejercicio 63](#ejercicio-63)
+[64 Ejercicio 64](#ejercicio-64)
+[65 Ejercicio 65](#ejercicio-65)
+[66 Ejercicio 66](#ejercicio-66)
+[67 Ejercicio 67](#ejercicio-67)
+[68 Ejercicio 68](#ejercicio-68)
+[69 Ejercicio 69](#ejercicio-69)
+
 ### Ejercicio 1
 
 Muestra los números múltiplos de 5 de 0 a 100 utilizando un bucle for.
@@ -1167,7 +1239,7 @@ Escribe un programa que pinte por pantalla la letra A. El usuario debe introduci
 ```
 Ejemplo 1:
 Introduzca la altura de la A (un número mayor o igual a 3): 7
-Introduzca la fila del palito horizontal (entre 2 y 6): 5 
+Introduzca la fila del palito horizontal (entre 2 y 6): 5
       X
      X X
     X   X
@@ -1178,7 +1250,7 @@ X           X
 
 Ejemplo 2:
 Introduzca la altura de la A (un número mayor o igual a 3): 7
-Introduzca la fila del palito horizontal (entre 2 y 6): 6 
+Introduzca la fila del palito horizontal (entre 2 y 6): 6
       X
      X X
     X   X
