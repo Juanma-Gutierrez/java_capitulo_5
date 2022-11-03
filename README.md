@@ -4,6 +4,80 @@ Soluciones a los ejercicios del libro **Aprende Java con ejercicios** de Luis Jo
 
 Este libro está a la venta en <https://leanpub.com/aprendejava>
 
+![image](https://user-images.githubusercontent.com/101201349/198890431-a5598843-2252-4e82-a764-bb1380121200.png)
+
+## Listado de ejercicios
+
+[Ejercicio 1](#ejercicio-1)
+[Ejercicio 2](#ejercicio-2)
+[Ejercicio 3](#ejercicio-3)
+[Ejercicio 4](#ejercicio-4)
+[Ejercicio 5](#ejercicio-5)
+[Ejercicio 6](#ejercicio-6)
+[Ejercicio 7](#ejercicio-7)
+[Ejercicio 8](#ejercicio-8)
+[Ejercicio 9](#ejercicio-9)
+[Ejercicio 10](#ejercicio-10)
+[Ejercicio 11](#ejercicio-11)
+[Ejercicio 12](#ejercicio-12)
+[Ejercicio 13](#ejercicio-13)
+[Ejercicio 14](#ejercicio-14)
+[Ejercicio 15](#ejercicio-15)
+[Ejercicio 16](#ejercicio-16)
+[Ejercicio 17](#ejercicio-17)
+[Ejercicio 18](#ejercicio-18)
+[Ejercicio 19](#ejercicio-19)
+[Ejercicio 20](#ejercicio-20)
+[Ejercicio 21](#ejercicio-21)
+[Ejercicio 22](#ejercicio-22)
+[Ejercicio 23](#ejercicio-23)
+[Ejercicio 24](#ejercicio-24)
+[Ejercicio 25](#ejercicio-25)
+[Ejercicio 26](#ejercicio-26)
+[Ejercicio 27](#ejercicio-27)
+[Ejercicio 28](#ejercicio-28)
+[Ejercicio 29](#ejercicio-29)
+[Ejercicio 30](#ejercicio-30)
+[Ejercicio 31](#ejercicio-31)
+[Ejercicio 32](#ejercicio-32)
+[Ejercicio 33](#ejercicio-33)
+[Ejercicio 34](#ejercicio-34)
+[Ejercicio 35](#ejercicio-35)
+[Ejercicio 36](#ejercicio-36)
+[Ejercicio 37](#ejercicio-37)
+[Ejercicio 38](#ejercicio-38)
+[Ejercicio 39](#ejercicio-39)
+[Ejercicio 40](#ejercicio-40)
+[Ejercicio 41](#ejercicio-41)
+[Ejercicio 42](#ejercicio-42)
+[Ejercicio 43](#ejercicio-43)
+[Ejercicio 44](#ejercicio-44)
+[Ejercicio 45](#ejercicio-45)
+[Ejercicio 46](#ejercicio-46)
+[Ejercicio 47](#ejercicio-47)
+[Ejercicio 48](#ejercicio-48)
+[Ejercicio 49](#ejercicio-49)
+[Ejercicio 50](#ejercicio-50)
+[Ejercicio 51](#ejercicio-51)
+[Ejercicio 52](#ejercicio-52)
+[Ejercicio 53](#ejercicio-53)
+[Ejercicio 54](#ejercicio-54)
+[Ejercicio 55](#ejercicio-55)
+[Ejercicio 56](#ejercicio-56)
+[Ejercicio 57](#ejercicio-57)
+[Ejercicio 58](#ejercicio-58)
+[Ejercicio 59](#ejercicio-59)
+[Ejercicio 60](#ejercicio-60)
+[Ejercicio 61](#ejercicio-61)
+[Ejercicio 62](#ejercicio-62)
+[Ejercicio 63](#ejercicio-63)
+[Ejercicio 64](#ejercicio-64)
+[Ejercicio 65](#ejercicio-65)
+[Ejercicio 66](#ejercicio-66)
+[Ejercicio 67](#ejercicio-67)
+[Ejercicio 68](#ejercicio-68)
+[Ejercicio 69](#ejercicio-69)
+
 ### Ejercicio 1
 
 Muestra los números múltiplos de 5 de 0 a 100 utilizando un bucle for.
@@ -360,7 +434,6 @@ Escribe un programa que calcule el factorial de un número entero leído por tec
 Ejemplo:
 Por favor, introduzca un número entero: 6
 6! = 720
-
 ```
 
 ### Ejercicio 29
@@ -378,7 +451,6 @@ Introduzca otro número (relativamente pequeño): 4
 Realiza una programa que calcule las horas transcurridas entre dos horas de dos días de la semana. No se tendrán en cuenta los minutos ni los segundos. El día de la semana se puede pedir como un número (del 1 al 7) o como una cadena (de “lunes” a “domingo”). Se debe comprobar que el usuario introduce los datos correctamente y que el segundo día es posterior al primero.
 
 ```
-
 Ejemplo:
 Por favor, introduzca la primera hora.
 Día: lunes
@@ -387,7 +459,6 @@ Por favor, introduzca la segunda hora.
 Día: martes
 Hora: 20
 Entre las 18:00h del lunes y las 20:00h del martes hay 26 hora/s.
-
 ```
 
 ### Ejercicio 31
@@ -395,7 +466,6 @@ Entre las 18:00h del lunes y las 20:00h del martes hay 26 hora/s.
 Realiza un programa que pinte la letra L por pantalla hecha con asteriscos. El programa pedirá la altura. El palo horizontal de la L tendrá una longitud de la mitad (división entera entre 2) de la altura más uno.
 
 ```
-
 Ejemplo:
 Introduzca la altura de la L: 5
 
@@ -403,7 +473,6 @@ Introduzca la altura de la L: 5
 *
 *
 ***
-
 ```
 
 ### Ejercicio 32
@@ -485,7 +554,6 @@ X   X
 Escribe un programa que diga si un número introducido por teclado es o no capicúa. Los números capicúa se leen igual hacia delante y hacia atrás. El programa debe aceptar números de cualquier longitud siempre que lo permita el tipo, en caso contrario el ejercicio no se dará por bueno. Se recomienda usar long en lugar de int ya que el primero admite números más largos.
 
 ```
-
 Ejemplo 1:
 Por favor, introduzca un número entero positivo: 678
 El 678 no es capicúa.
@@ -501,11 +569,9 @@ El 2019102 es capicúa.
 Realiza un conversor del sistema decimal al sistema de “palotes”.
 
 ```
-
 Ejemplo:
 Por favor, introduzca un número entero positivo: 47021
 El 47021 en decimal es el | | | | - | | | | | | | - - | | - | en el sistema de palotes.
-
 ```
 
 ### Ejercicio 38
@@ -528,7 +594,6 @@ XXXXX
 Escribe un programa que pida un número entero positivo por teclado y que muestre a continuación los números desde el 1 al número introducido junto con su factorial.
 
 ```
-
 Ejemplo:
 Por favor, introduzca un número entero positivo: 7
 1! = 1
@@ -538,7 +603,6 @@ Por favor, introduzca un número entero positivo: 7
 5! = 120
 6! = 720
 7! = 5040
-
 ```
 
 ### Ejercicio 40
@@ -560,7 +624,6 @@ X   X
 Escribe un programa que diga cuántos dígitos pares y cuántos dígitos impares hay dentro de un número. Se recomienda usar long en lugar de int ya que el primero admite números más largos.
 
 ```
-
 Ejemplo 1:
 Por favor, introduzca un número entero positivo: 406783
 El 406783 contiene 4 dígitos pares y 2 dígitos impares.
@@ -568,7 +631,6 @@ El 406783 contiene 4 dígitos pares y 2 dígitos impares.
 Ejemplo 2:
 Por favor, introduzca un número entero positivo: 3177840
 El 3177840 contiene 3 dígitos pares y 4 dígitos impares.
-
 ```
 
 ### Ejercicio 42
@@ -576,7 +638,6 @@ El 3177840 contiene 3 dígitos pares y 4 dígitos impares.
 Escribe un programa que pida un número entero positivo por teclado y que muestre a continuación los 5 números consecutivos a partir del número introducido. Al lado de cada número se debe indicar si se trata de un primo o no.
 
 ```
-
 Ejemplo:
 Por favor, introduzca un número entero positivo: 17
 17 es primo
@@ -584,7 +645,6 @@ Por favor, introduzca un número entero positivo: 17
 19 es primo
 20 no es primo
 21 no es primo
-
 ```
 
 ### Ejercicio 43
@@ -701,7 +761,6 @@ Ejemplo 4:
 Introduzca un número entero: 13247721
 Dígitos que aparecen en el número: 1 2 3 4 7
 Dígitos que no aparecen: 0 5 6 8 9
-
 ```
 
 ### Ejercicio 49
@@ -720,7 +779,6 @@ Ha introducido 4 números no primos.
 Máximo: 15
 Mínimo: 6
 Media: 10.25
-
 ```
 
 ### Ejercicio 50
@@ -769,7 +827,6 @@ X XXXX XXXX
 El gusano numérico se come los dígitos con forma de rosquilla, o sea, el 0 y el 8 (todos los que encuentre). Realiza un programa que muestre un número antes y después de haber sido comido por el gusano. Si el animalito no se ha comido ningún dígito, el programa debe indicarlo.
 
 ```
-
 Ejemplo 1:
 Introduzca un número entero (mayor que cero): 51803458
 Después de haber sido comido por el gusano numérico se queda en 51345

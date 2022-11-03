@@ -2,7 +2,7 @@
 /**
  * Exercise: 21
  *
- * @version: 18/10/2022 07:46
+ * @version: 18/10/2022
  * @author: Juan Manuel Gutiérrez
  *          https://github.com/Juanma-Gutierrez
  */
@@ -26,6 +26,7 @@ public class Ejercicio21 {
         counter = 0;
         averageOdd = 0;
         counterOdd = 0;
+
         maxEven = 0;
 
         // Scanner class

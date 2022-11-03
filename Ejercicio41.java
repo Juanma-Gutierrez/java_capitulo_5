@@ -2,7 +2,7 @@
 /**
  * Exercise: 41
  *
- * @version: 19/10/2022 19:21
+ * @version: 19/10/2022
  * @author: Juan Manuel Gutiérrez
  *          https://github.com/Juanma-Gutierrez
  */
@@ -18,6 +18,7 @@ public class Ejercicio41 {
         // Var declarations
         int num;
         int temp;
+
         int evenCount;
         int oddCount;
 

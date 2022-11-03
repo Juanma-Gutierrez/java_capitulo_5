@@ -2,7 +2,7 @@
 /**
  * Exercise: 34
  *
- * @version: 19/10/2022 17:11
+ * @version: 19/10/2022
  * @author: Juan Manuel Gutiérrez
  *          https://github.com/Juanma-Gutierrez
  */
@@ -74,6 +74,7 @@ public class Ejercicio34 {
                 resOdd += rotateNum2 % 10;
                 rotateNum2 /= 10;
             }
+
         } while (rotateNum1 > 0 || rotateNum2 > 0);
 
         // Output results
