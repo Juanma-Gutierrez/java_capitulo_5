@@ -7,14 +7,17 @@
  *          https://github.com/Juanma-Gutierrez
  */
 
+/*
+ * Realiza un programa que pida un número por teclado y que luego muestre ese número al revés.
+ */
+
 import java.util.Scanner;
 
 public class Ejercicio25 {
     public static void main(String[] args) {
-
         // Var declarations
-        int num;
-        int res;
+        long num;
+        long res;
 
         // var init
         res = 0;
@@ -34,7 +37,6 @@ public class Ejercicio25 {
                 res += num % 10;
                 num /= 10;
             }
-
             System.out.print(" al revés se escribe: " + res);
         } else
             System.out.print("Número introducido no válido.");

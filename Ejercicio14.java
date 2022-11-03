@@ -7,22 +7,32 @@
  *          https://github.com/Juanma-Gutierrez
  */
 
+/*
+ * Escribe un programa que pida una base y un exponente (entero positivo) y que calcule la potencia.
+ */
+
 import java.util.Scanner;
 
 public class Ejercicio14 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        // Var declarations
         int base;
         int pow;
         int res;
 
+        // Var init
         res = 1;
 
+        // Scanner class
+        Scanner sc = new Scanner(System.in);
+
+        // Input data
         System.out.print("Introduce la base: ");
         base = sc.nextInt();
         System.out.print("Introduce la potencia (entero positivo): ");
         pow = sc.nextInt();
 
+        // Process
         if (pow <= 0)
             System.out.print("Has introducido una potencia no válida");
         else {

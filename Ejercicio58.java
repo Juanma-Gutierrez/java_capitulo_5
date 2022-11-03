@@ -7,6 +7,10 @@
  *          https://github.com/Juanma-Gutierrez
  */
 
+/*
+ * Realiza un programa que calcule la media de los dígitos que contiene un número entero introducido por teclado.
+ */
+
 import java.util.Scanner;
 
 public class Ejercicio58 {

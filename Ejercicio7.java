@@ -7,21 +7,29 @@
  *          https://github.com/Juanma-Gutierrez
  */
 
+/*
+ * Realiza el control de acceso a una caja fuerte. La combinación será un número de 4 cifras. El programa nos pedirá la combinación para abrirla. Si no acertamos, se nos mostrará el mensaje “Lo siento, esa no es la combinación” y si acertamos se nos dirá “La caja fuerte se ha abierto satisfactoriamente”. Tendremos cuatro oportunidades para abrir la caja fuerte.
+ */
+
 import java.util.Scanner;
 
 public class Ejercicio7 {
     public static void main(String[] args) {
+        // Var declarations
         String comb;
         String userComb;
         boolean right;
         int tryNumber;
 
-        Scanner sc = new Scanner(System.in);
-
+        // Var init
         tryNumber = 1;
         right = false;
         comb = "1234";
 
+        // Scanner class
+        Scanner sc = new Scanner(System.in);
+
+        // Process
         do {
             System.out.print("Introduce la combinación (intento nº " + tryNumber + "/4): ");
             userComb = sc.next();
