@@ -15,12 +15,17 @@ import java.util.Scanner;
 
 public class Ejercicio24 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        // Var declarations
         int height;
 
+        // Scanner class
+        Scanner sc = new Scanner(System.in);
+
+        // Input data
         System.out.print("Introduce la altura de la pirámide: ");
         height = sc.nextInt();
 
+        // Process
         for (int i = 1; i <= height; i++) {
             for (int j = height - i; j > 0; j--) {
                 System.out.print(" ");
@@ -34,6 +39,7 @@ public class Ejercicio24 {
             System.out.println();
         }
 
+        // Close scanner
         sc.close();
     }
 }

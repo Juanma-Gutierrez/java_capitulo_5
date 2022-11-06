@@ -15,17 +15,23 @@ import java.util.Scanner;
 
 public class Ejercicio11 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        // Var declarations
         int num;
 
+        // Scanner class
+        Scanner sc = new Scanner(System.in);
+
+        // Input data
         System.out.print("Introduce un número entero: ");
         num = sc.nextInt();
 
+        // Process
         for (int i = 0; i < 5; i++) {
             System.out.printf("%-10d%-10d%-10d\n", (num + i), (int) (Math.pow(num + i, 2)),
                     (int) (Math.pow(num + i, 3)));
         }
 
+        // Close scanner
         sc.close();
     }
 }

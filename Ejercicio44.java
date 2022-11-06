@@ -73,6 +73,8 @@ public class Ejercicio44 {
             // Output data
             System.out.print("El número resultante es " + newNum);
         }
+
+        // Close scanner
         sc.close();
     }
 }

@@ -12,8 +12,13 @@
 
 public class Ejercicio2 {
     public static void main(String[] args) {
+        // Var declarations
         int i;
+
+        // Var init
         i = 0;
+
+        // Process
         while (i <= 100) {
             System.out.print(i + ", ");
             i += 5;

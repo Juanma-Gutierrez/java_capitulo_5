@@ -15,20 +15,23 @@ import java.util.Scanner;
 
 public class Ejercicio21 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
+        // Var declarations
         int maxEven;
         int averageOdd;
         int counterOdd;
         int counter;
         int num;
 
+        // Var init
         counter = 0;
         averageOdd = 0;
         counterOdd = 0;
-
         maxEven = 0;
 
+        // Scanner class
+        Scanner sc = new Scanner(System.in);
+
+        // Process
         do {
             System.out.print("Introduce un número (negativo para terminar): ");
             num = sc.nextInt();
@@ -44,6 +47,7 @@ public class Ejercicio21 {
             }
         } while (num >= 0);
 
+        // Output results
         System.out.println("La cantidad de números introducida es: " + counter);
         System.out.println("El mayor número par es: " + maxEven);
         if (counterOdd > 0)
@@ -51,6 +55,7 @@ public class Ejercicio21 {
         else
             System.out.println("No se ha introducido ningún número impar");
 
+        // Scanner close
         sc.close();
     }
 }

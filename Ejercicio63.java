@@ -109,6 +109,7 @@ public class Ejercicio63 {
             System.out.println();
         }
 
+        // Close scanner
         sc.close();
     }
 }

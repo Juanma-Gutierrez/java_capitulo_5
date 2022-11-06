@@ -13,8 +13,13 @@
 
 public class Ejercicio6 {
     public static void main(String[] args) {
+        // Var declarations
         int i;
+
+        // Var init
         i = 320;
+
+        // Process
         do {
             System.out.print(i + ", ");
             i -= 20;

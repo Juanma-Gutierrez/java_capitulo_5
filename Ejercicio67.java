@@ -39,6 +39,7 @@ public class Ejercicio67 {
             ast += "****";
         }
 
+        // Close scanner
         sc.close();
     }
 }

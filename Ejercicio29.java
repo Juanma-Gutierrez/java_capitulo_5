@@ -38,7 +38,7 @@ public class Ejercicio29 {
             }
         }
 
-        // Output results
+        // Close scanner
         sc.close();
     }
 }

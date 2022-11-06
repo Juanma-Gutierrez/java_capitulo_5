@@ -13,6 +13,7 @@
 
 public class Ejercicio4 {
     public static void main(String[] args) {
+        // Process
         for (int i = 320; i >= 160; i -= 20) {
             System.out.print(i + ", ");
         }

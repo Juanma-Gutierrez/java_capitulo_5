@@ -80,6 +80,8 @@ public class Ejercicio34 {
         // Output results
         System.out.println("El número formado por los dígitos pares es " + resEven);
         System.out.println("El número formado por los dígitos impares es " + resOdd);
+
+        // Close scanner
         sc.close();
     }
 }

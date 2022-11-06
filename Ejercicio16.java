@@ -15,16 +15,22 @@ import java.util.Scanner;
 
 public class Ejercicio16 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        // Var declarations
         int num;
         int i;
         boolean prime;
 
+        // Var init
         prime = true;
 
+        // Scanner class
+        Scanner sc = new Scanner(System.in);
+
+        // Input data
         System.out.print("Introduce un número entero mayor que 2: ");
         num = sc.nextInt();
 
+        // Process
         if (num < 2)
             System.out.print("No es un número válido");
         else {
@@ -34,9 +40,10 @@ public class Ejercicio16 {
                     prime = false;
                 i++;
             }
-
             System.out.print(prime ? num + " es un número primo" : num + " no es un número primo");
         }
+
+        // Close scanner
         sc.close();
     }
 }

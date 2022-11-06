@@ -45,6 +45,7 @@ public class Ejercicio27 {
         System.out.println("\nTotal múltiplos de 3: " + count);
         System.out.println("Suma de múltiplos de 3: " + sum);
 
+        // Close scanner
         sc.close();
     }
 }

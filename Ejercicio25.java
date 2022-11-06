@@ -43,6 +43,7 @@ public class Ejercicio25 {
         } else
             System.out.print("Número introducido no válido.");
 
+        // Close scanner
         sc.close();
     }
 }

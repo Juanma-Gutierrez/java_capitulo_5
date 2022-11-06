@@ -15,15 +15,21 @@ import java.util.Scanner;
 
 public class Ejercicio17 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        // Var declarations
         int num;
         int sum;
 
+        // Var init
         sum = 0;
 
+        // Scanner class
+        Scanner sc = new Scanner(System.in);
+
+        // Input data
         System.out.print("Introduce un número entero y positivo: ");
         num = sc.nextInt();
 
+        // Process
         if (num > 0) {
             for (int i = 0; i < 100; i++) {
                 sum += num + i;
@@ -32,6 +38,8 @@ public class Ejercicio17 {
         } else {
             System.out.print("Has introducido un número no válido");
         }
+
+        // Close scanner
         sc.close();
     }
 }

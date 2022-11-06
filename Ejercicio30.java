@@ -65,6 +65,8 @@ public class Ejercicio30 {
             System.out.print(
                     "Entre las " + hourInit + ":00h del día " + dayInit + " y las " + hourFinal + ":00h del día "
                             + dayFinal + " hay " + hours + " hora/s");
+
+        // Close scanner
         sc.close();
     }
 }

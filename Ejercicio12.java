@@ -15,18 +15,24 @@ import java.util.Scanner;
 
 public class Ejercicio12 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        // Var declarations
         int num1;
         int num2;
         int temp;
         int num;
 
+        // Var init
         num1 = 0;
         num2 = 1;
 
+        // Scanner class
+        Scanner sc = new Scanner(System.in);
+
+        // Input data
         System.out.print("Introduce el número de valores que quieres mostrar de la secuencia Fibonacci: ");
         num = sc.nextInt();
 
+        // Process
         for (int i = 0; i < num; i++) {
             System.out.print(num1 + ", ");
             temp = num1;
@@ -34,6 +40,7 @@ public class Ejercicio12 {
             num2 = num1 + temp;
         }
 
+        // Close scanner
         sc.close();
     }
 }

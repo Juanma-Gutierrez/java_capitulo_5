@@ -63,6 +63,7 @@ public class Ejercicio62 {
         System.out.print(cLucky > cUnlucky ? "El " + num + " es un número afortunado"
                 : "El " + num + " no es un número afortunado");
 
+        // Close scanner
         sc.close();
     }
 }

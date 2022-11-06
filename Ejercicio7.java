@@ -15,17 +15,21 @@ import java.util.Scanner;
 
 public class Ejercicio7 {
     public static void main(String[] args) {
+        // Var declarations
         String comb;
         String userComb;
         boolean right;
         int tryNumber;
 
-        Scanner sc = new Scanner(System.in);
-
+        // Var init
         tryNumber = 1;
         right = false;
         comb = "1234";
 
+        // Scanner class
+        Scanner sc = new Scanner(System.in);
+
+        // Process
         do {
             System.out.print("Introduce la combinación (intento nº " + tryNumber + "/4): ");
             userComb = sc.next();
@@ -36,6 +40,7 @@ public class Ejercicio7 {
                     right ? "La caja fuerte se ha abierto satisfactoriamente" : "Lo siento, esa no es la combinación");
         } while (tryNumber <= 4 && right == false);
 
+        // Close scanner
         sc.close();
     }
 }

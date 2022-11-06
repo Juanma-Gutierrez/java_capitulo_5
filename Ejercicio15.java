@@ -15,16 +15,21 @@ import java.util.Scanner;
 
 public class Ejercicio15 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        // Var declarations
         int base;
         int pow;
         int res;
 
+        // Scanner class
+        Scanner sc = new Scanner(System.in);
+
+        // Input data
         System.out.print("Introduce la base: ");
         base = sc.nextInt();
         System.out.print("Introduce la potencia (entero positivo): ");
         pow = sc.nextInt();
 
+        // Process
         if (pow <= 0)
             System.out.print("Has introducido una potencia no válida");
         else {
@@ -38,6 +43,7 @@ public class Ejercicio15 {
             }
         }
 
+        // Close scanner
         sc.close();
     }
 

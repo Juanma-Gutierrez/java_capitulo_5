@@ -45,6 +45,7 @@ public class Ejercicio36 {
         if (neg == 1)
             System.out.print("y de signo negativo");
 
+        // Close scanner
         sc.close();
     }
 

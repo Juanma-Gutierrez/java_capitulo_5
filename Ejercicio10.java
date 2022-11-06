@@ -15,14 +15,19 @@ import java.util.Scanner;
 
 public class Ejercicio10 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        // Var declarations
         int sum;
         int count;
         int num;
 
+        // Var init
         sum = 0;
         count = 0;
 
+        // Scanner class
+        Scanner sc = new Scanner(System.in);
+
+        // Input data
         System.out.println(
                 "Promedio de números. Introduce los números de los que quieres calcular la media. Introduce un valor negativo para finalizar.");
         do {
@@ -34,8 +39,11 @@ public class Ejercicio10 {
             }
         } while (num >= 0);
 
+        // Output results
         System.out.print("La media de los números introducidos es: ");
         System.out.printf("%.2f", ((float) sum / (float) count));
+
+        // Close scanner
         sc.close();
     }
 }

@@ -65,6 +65,8 @@ public class Ejercicio64 {
                     break;
             }
         } while (opt != 4);
+
+        // Close scanner
         sc.close();
     }
 }

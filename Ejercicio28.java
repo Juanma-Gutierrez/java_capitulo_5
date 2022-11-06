@@ -40,6 +40,7 @@ public class Ejercicio28 {
         // Output results
         System.out.print(num + "! = " + res);
 
+        // Close scanner
         sc.close();
     }
 }

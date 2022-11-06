@@ -15,13 +15,19 @@ import java.util.Scanner;
 
 public class Ejercicio13 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        // Var declarations
         int pos;
         int neg;
         int num;
 
+        // Var init
         pos = 0;
         neg = 0;
+
+        // Scanner class
+        Scanner sc = new Scanner(System.in);
+
+        // Input data
         for (int i = 0; i < 10; i++) {
             System.out.print("Introduce un número: ");
             num = sc.nextInt();
@@ -31,8 +37,11 @@ public class Ejercicio13 {
                 neg++;
         }
 
+        // Output results
         System.out.println("Números positivos introducidos: " + pos);
         System.out.println("Números negativos introducidos: " + neg);
+
+        // Close scanner
         sc.close();
     }
 }

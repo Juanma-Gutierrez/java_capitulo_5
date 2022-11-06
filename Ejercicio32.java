@@ -53,6 +53,7 @@ public class Ejercicio32 {
         else
             System.out.print("\nNo existe ningún dígito par");
 
+        // Close scanner
         sc.close();
     }
 }

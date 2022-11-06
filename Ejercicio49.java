@@ -63,6 +63,7 @@ public class Ejercicio49 {
         System.out.println("Mínimo: " + min);
         System.out.printf("Media: %.2f", (float) sum / count);
 
+        // Close scanner
         sc.close();
     }
 }

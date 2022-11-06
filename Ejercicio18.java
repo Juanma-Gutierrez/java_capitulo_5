@@ -15,16 +15,21 @@ import java.util.Scanner;
 
 public class Ejercicio18 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        // Var declarations
         int num1;
         int num2;
         int temp;
 
+        // Scanner class
+        Scanner sc = new Scanner(System.in);
+
+        // Input data
         System.out.print("Introduce el primer número: ");
         num1 = sc.nextInt();
         System.out.print("Introduce el segundo número: ");
         num2 = sc.nextInt();
 
+        // Process
         if (num1 > num2) {
             temp = num1;
             num1 = num2;
@@ -34,6 +39,8 @@ public class Ejercicio18 {
         for (int i = num1; i <= num2; i += 7) {
             System.out.print(i + ", ");
         }
+
+        // Close scanner
         sc.close();
     }
 }

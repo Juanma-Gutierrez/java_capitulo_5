@@ -15,14 +15,21 @@ import java.util.Scanner;
 
 public class Ejercicio9 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        // Var declarations
         int num;
         int cont;
 
+        // Var init
         cont = 0;
 
+        // Scanner class
+        Scanner sc = new Scanner(System.in);
+
+        // Input data
         System.out.print("Introduce un número mayor que 0: ");
         num = sc.nextInt();
+
+        // Process
         if (num <= 0)
             System.out.print("Has introducido un número no válido");
         else {
@@ -34,6 +41,7 @@ public class Ejercicio9 {
 
         }
 
+        // Close scanner
         sc.close();
     }
 }
