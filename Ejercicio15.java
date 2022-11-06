@@ -33,7 +33,6 @@ public class Ejercicio15 {
         if (pow <= 0)
             System.out.print("Has introducido una potencia no válida");
         else {
-
             for (int i = 1; i <= pow; i++) {
                 res = 1;
                 for (int j = 0; j < i; j++) {

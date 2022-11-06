@@ -15,7 +15,6 @@ import java.util.Scanner;
 
 public class Ejercicio30 {
     public static void main(String[] args) {
-
         // Var declarations
         int dayInit;
         int hourInit;

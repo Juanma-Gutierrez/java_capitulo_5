@@ -36,6 +36,7 @@ public class Ejercicio18 {
             num2 = temp;
         }
 
+        // Output results
         for (int i = num1; i <= num2; i += 7) {
             System.out.print(i + ", ");
         }

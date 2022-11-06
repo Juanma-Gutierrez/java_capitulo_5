@@ -910,7 +910,6 @@ X  X
 X X
 XX
 X
-
 ```
 
 ### Ejercicio 55
@@ -1026,7 +1025,6 @@ Por favor, introduzca la altura del árbol: 7
 ^^^^^^^^^
     Y
 
-
 Ejemplo 2:
 Por favor, introduzca la altura del árbol: 4
 
@@ -1122,7 +1120,6 @@ XXX                XXX
 Ejemplo 4:
 Introduzca la altura de la V (un número mayor o igual a 3): 2
 La altura debe ser mayor o igual a 3.
-
 ```
 
 ### Ejercicio 62

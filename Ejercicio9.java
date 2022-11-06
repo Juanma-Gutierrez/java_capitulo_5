@@ -38,7 +38,6 @@ public class Ejercicio9 {
                 cont++;
             }
             System.out.print("El número introducido tiene " + cont + " dígitos");
-
         }
 
         // Close scanner

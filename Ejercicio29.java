@@ -15,7 +15,6 @@ import java.util.Scanner;
 
 public class Ejercicio29 {
     public static void main(String[] args) {
-
         // Var declarations
         int num1;
         int num2;
