@@ -41,7 +41,7 @@ public class Ejercicio52 {
         // Process
         numLong = nLong(num);
         val = (int) Math.pow(10, numLong - 1);
-        dig = num / val;
+        dig = (int) num / val;
         num = num % val;
         num *= 10;
         num += dig;

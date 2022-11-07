@@ -33,7 +33,7 @@ public class Ejercicio48 {
         for (int i = 0; i < 10; i++) {
             find = false;
             aux = num;
-            while (aux > 0) {
+            while (aux > 0 && !find) {
                 if (aux % 10 == i)
                     find = true;
                 aux /= 10;
@@ -43,11 +43,11 @@ public class Ejercicio48 {
         }
 
         // Find numbers doesn't appears
-        System.out.print("\nDígitos que noaparecen: ");
+        System.out.print("\nDígitos que no aparecen: ");
         for (int i = 0; i < 10; i++) {
             find = false;
             aux = num;
-            while (aux > 0) {
+            while (aux > 0 && !find) {
                 if (aux % 10 == i)
                     find = true;
                 aux /= 10;
