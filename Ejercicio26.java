@@ -52,6 +52,7 @@ public class Ejercicio26 {
             count++;
         }
 
+        // Close scanner
         sc.close();
     }
 }

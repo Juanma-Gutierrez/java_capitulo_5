@@ -35,6 +35,7 @@ public class Ejercicio54 {
             System.out.println();
         }
 
+        // Close scanner
         sc.close();
     }
 }

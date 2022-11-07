@@ -42,6 +42,7 @@ public class Ejercicio14 {
             System.out.print(base + " a la " + pow + " potencia es " + res);
         }
 
+        // Close scanner
         sc.close();
     }
 }

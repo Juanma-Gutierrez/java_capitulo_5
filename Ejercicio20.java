@@ -19,7 +19,7 @@ public class Ejercicio20 {
         int height;
         String character;
 
-        // Scanner class
+        // Scanner close
         Scanner sc = new Scanner(System.in);
 
         // Input data
@@ -42,6 +42,7 @@ public class Ejercicio20 {
             System.out.println();
         }
 
+        // Scanner close
         sc.close();
     }
 }

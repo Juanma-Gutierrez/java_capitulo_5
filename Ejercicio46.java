@@ -55,6 +55,7 @@ public class Ejercicio46 {
             }
         }
 
+        // Close scanner
         sc.close();
     }
 }

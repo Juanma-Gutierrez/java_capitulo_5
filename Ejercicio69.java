@@ -40,10 +40,11 @@ public class Ejercicio69 {
                     else
                         System.out.print(" ");
             }
-
             // New line
             System.out.println();
         }
+
+        // Close scanner
         sc.close();
     }
 }

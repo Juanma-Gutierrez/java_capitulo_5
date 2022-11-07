@@ -59,6 +59,7 @@ public class Ejercicio51 {
         System.out.print(newNum == num ? "El gusano numérico no se ha comido ningún dígito."
                 : "Después de haber sido comido por el gusano numérico se queda en " + newNum);
 
+        // Close scanner
         sc.close();
     }
 

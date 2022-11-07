@@ -26,7 +26,6 @@ public class Ejercicio21 {
         counter = 0;
         averageOdd = 0;
         counterOdd = 0;
-
         maxEven = 0;
 
         // Scanner class
@@ -56,6 +55,7 @@ public class Ejercicio21 {
         else
             System.out.println("No se ha introducido ningún número impar");
 
+        // Scanner close
         sc.close();
     }
 }

@@ -40,6 +40,7 @@ public class Ejercicio12 {
             num2 = num1 + temp;
         }
 
+        // Close scanner
         sc.close();
     }
 }

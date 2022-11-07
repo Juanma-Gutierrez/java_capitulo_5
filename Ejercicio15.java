@@ -42,6 +42,7 @@ public class Ejercicio15 {
             }
         }
 
+        // Close scanner
         sc.close();
     }
 

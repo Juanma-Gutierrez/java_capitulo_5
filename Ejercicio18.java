@@ -41,6 +41,7 @@ public class Ejercicio18 {
             System.out.print(i + ", ");
         }
 
+        // Close scanner
         sc.close();
     }
 }

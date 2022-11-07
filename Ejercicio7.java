@@ -40,6 +40,7 @@ public class Ejercicio7 {
                     right ? "La caja fuerte se ha abierto satisfactoriamente" : "Lo siento, esa no es la combinación");
         } while (tryNumber <= 4 && right == false);
 
+        // Close scanner
         sc.close();
     }
 }

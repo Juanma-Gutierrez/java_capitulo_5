@@ -50,6 +50,7 @@ public class Ejercicio37 {
         } while (rotatedNum > 0);
         System.out.print(" en el sistema de palotes.");
 
+        // Close scanner
         sc.close();
     }
 }

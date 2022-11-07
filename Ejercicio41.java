@@ -46,6 +46,7 @@ public class Ejercicio41 {
         // Output data
         System.out.print("El " + num + " contiene " + evenCount + " dígitos pares y " + oddCount + " dígitos impares.");
 
+        // Close scanner
         sc.close();
     }
 }

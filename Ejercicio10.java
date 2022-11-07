@@ -27,7 +27,7 @@ public class Ejercicio10 {
         // Scanner class
         Scanner sc = new Scanner(System.in);
 
-        // Process
+        // Input data
         System.out.println(
                 "Promedio de números. Introduce los números de los que quieres calcular la media. Introduce un valor negativo para finalizar.");
         do {
@@ -42,6 +42,8 @@ public class Ejercicio10 {
         // Output results
         System.out.print("La media de los números introducidos es: ");
         System.out.printf("%.2f", ((float) sum / (float) count));
+
+        // Close scanner
         sc.close();
     }
 }

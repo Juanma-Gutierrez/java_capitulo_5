@@ -46,8 +46,10 @@ public class Ejercicio55 {
         dig *= val;
         num += dig;
 
+        // Output results
         System.out.print("El número resultado es: " + num);
 
+        // Close scanner
         sc.close();
     }
 }

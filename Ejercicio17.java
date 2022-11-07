@@ -38,6 +38,8 @@ public class Ejercicio17 {
         } else {
             System.out.print("Has introducido un número no válido");
         }
+
+        // Close scanner
         sc.close();
     }
 }

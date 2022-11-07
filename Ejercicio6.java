@@ -16,7 +16,7 @@ public class Ejercicio6 {
         // Var declarations
         int i;
 
-        // Va init
+        // Var init
         i = 320;
 
         // Process

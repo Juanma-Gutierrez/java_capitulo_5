@@ -18,13 +18,13 @@ public class Ejercicio9 {
         // Var declarations
         int num;
         int cont;
-        
+
         // Var init
         cont = 0;
 
         // Scanner class
         Scanner sc = new Scanner(System.in);
-        
+
         // Input data
         System.out.print("Introduce un número mayor que 0: ");
         num = sc.nextInt();
@@ -38,9 +38,9 @@ public class Ejercicio9 {
                 cont++;
             }
             System.out.print("El número introducido tiene " + cont + " dígitos");
-
         }
 
+        // Close scanner
         sc.close();
     }
 }

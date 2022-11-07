@@ -17,7 +17,7 @@ public class Ejercicio3 {
 
         // Var init
         i = 0;
-        
+
         // Process
         do {
             System.out.print(i + ", ");

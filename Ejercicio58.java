@@ -40,6 +40,8 @@ public class Ejercicio58 {
 
         // Output data
         System.out.print("La media de sus dígitos es: " + ((float) sum / (float) count));
+
+        // Close scanner
         sc.close();
     }
 }

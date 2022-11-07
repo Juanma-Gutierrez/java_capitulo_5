@@ -43,6 +43,7 @@ public class Ejercicio16 {
             System.out.print(prime ? num + " es un número primo" : num + " no es un número primo");
         }
 
+        // Close scanner
         sc.close();
     }
 }

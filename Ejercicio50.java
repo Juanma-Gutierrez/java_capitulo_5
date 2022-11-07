@@ -66,6 +66,7 @@ public class Ejercicio50 {
         } else
             System.out.print("Ha introducido valores incorrectos.");
 
+        // Close scanner
         sc.close();
     }
 }

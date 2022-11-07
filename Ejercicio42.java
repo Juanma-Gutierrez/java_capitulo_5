@@ -36,6 +36,7 @@ public class Ejercicio42 {
             System.out.println(i + (prime ? " es primo" : " no es primo"));
         }
 
+        // Close scanner
         sc.close();
     }
 }

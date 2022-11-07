@@ -34,6 +34,7 @@ public class Ejercicio39 {
             System.out.println(i + "! = " + fact);
         }
 
+        // Close scanner
         sc.close();
     }
 

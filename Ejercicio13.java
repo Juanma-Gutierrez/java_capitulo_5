@@ -27,7 +27,7 @@ public class Ejercicio13 {
         // Scanner class
         Scanner sc = new Scanner(System.in);
 
-        // Process
+        // Input data
         for (int i = 0; i < 10; i++) {
             System.out.print("Introduce un número: ");
             num = sc.nextInt();
@@ -40,6 +40,8 @@ public class Ejercicio13 {
         // Output results
         System.out.println("Números positivos introducidos: " + pos);
         System.out.println("Números negativos introducidos: " + neg);
+
+        // Close scanner
         sc.close();
     }
 }

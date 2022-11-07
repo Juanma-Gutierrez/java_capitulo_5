@@ -54,7 +54,10 @@ public class Ejercicio68 {
             revNum /= 10;
         } while (revNum > 0);
 
+        // Output results
         System.out.print("Dislocando el " + num + " sale el " + dislocNum);
+
+        // Close scanner
         sc.close();
     }
 }

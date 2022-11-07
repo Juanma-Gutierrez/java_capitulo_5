@@ -67,6 +67,7 @@ public class Ejercicio43 {
         // Output data
         System.out.print("Los números partidos son el " + newNum1 + " y el " + newNum2);
 
+        // Close scanner
         sc.close();
     }
 }

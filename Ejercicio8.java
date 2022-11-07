@@ -21,7 +21,7 @@ public class Ejercicio8 {
         // Scanner class
         Scanner sc = new Scanner(System.in);
 
-        // Var init
+        // Input data
         System.out.print("Introduce un número del 1 al 10: ");
         num = sc.nextInt();
 
@@ -34,6 +34,7 @@ public class Ejercicio8 {
             }
         }
 
+        // Close scanner
         sc.close();
     }
 }

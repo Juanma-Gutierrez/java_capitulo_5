@@ -48,6 +48,7 @@ public class Ejercicio52 {
 
         System.out.print("El número resultado es: " + num);
 
+        // Close scanner
         sc.close();
     }
 }

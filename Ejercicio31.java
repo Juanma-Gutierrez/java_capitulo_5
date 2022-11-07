@@ -31,6 +31,7 @@ public class Ejercicio31 {
         for (int i = 0; i < (height / 2) + 1; i++)
             System.out.print("*");
 
+        // Close scanner
         sc.close();
     }
 }

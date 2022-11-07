@@ -38,6 +38,7 @@ public class Ejercicio47 {
 
         }
 
+        // Close scanner
         sc.close();
     }
 }

@@ -31,6 +31,7 @@ public class Ejercicio11 {
                     (int) (Math.pow(num + i, 3)));
         }
 
+        // Close scanner
         sc.close();
     }
 }

@@ -41,6 +41,7 @@ public class Ejercicio60 {
                 System.out.println(socks2);
         }
 
+        // Close scanner
         sc.close();
     }
 }

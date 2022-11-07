@@ -40,6 +40,8 @@ public class Ejercicio23 {
         System.out.println("Total acumulado: " + sum);
         System.out.println("Contador de números introducidos: " + cont);
         System.out.printf("Media de números introducidos: %.2f", ((float) sum / cont));
+
+        // Close scanner
         sc.close();
     }
 }
