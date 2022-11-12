@@ -33,13 +33,21 @@ public class Ejercicio14 {
         pow = sc.nextInt();
 
         // Process
-        if (pow <= 0)
-            System.out.print("Has introducido una potencia no válida");
+        if (pow == 0)
+            System.out.print(base + " elevado a " + pow + " es 1");
         else {
-            for (int i = 0; i < pow; i++) {
-                res *= base;
+            if (base < 0) {
+                base *= (-1);
+                for (int i = 0; i < pow; i++) {
+                    res *= base;
+                }
+                res *= (-1);
+            } else {
+                for (int i = 0; i < pow; i++) {
+                    res *= base;
+                }
             }
-            System.out.print(base + " a la " + pow + " potencia es " + res);
+            System.out.print(base + " elevado a " + pow + " es " + res);
         }
 
         // Close scanner

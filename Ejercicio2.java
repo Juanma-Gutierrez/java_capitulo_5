@@ -20,7 +20,10 @@ public class Ejercicio2 {
 
         // Process
         while (i <= 100) {
-            System.out.print(i + ", ");
+            if (i == 0)
+                System.out.print(i);
+            else
+                System.out.print(", " + i);
             i += 5;
         }
     }

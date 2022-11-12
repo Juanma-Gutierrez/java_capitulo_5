@@ -34,7 +34,10 @@ public class Ejercicio12 {
 
         // Process
         for (int i = 0; i < num; i++) {
-            System.out.print(num1 + ", ");
+            if (i == 0)
+                System.out.print(num1);
+            else
+                System.out.print(", " + num1);
             temp = num1;
             num1 = num2;
             num2 = num1 + temp;

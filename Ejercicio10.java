@@ -16,8 +16,8 @@ import java.util.Scanner;
 public class Ejercicio10 {
     public static void main(String[] args) {
         // Var declarations
-        int sum;
-        int count;
+        float sum;
+        float count;
         int num;
 
         // Var init
@@ -40,8 +40,7 @@ public class Ejercicio10 {
         } while (num >= 0);
 
         // Output results
-        System.out.print("La media de los números introducidos es: ");
-        System.out.printf("%.2f", ((float) sum / (float) count));
+        System.out.printf("La media de los números introducidos es: %.2f", sum / count);
 
         // Close scanner
         sc.close();

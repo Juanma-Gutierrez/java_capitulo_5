@@ -21,7 +21,10 @@ public class Ejercicio6 {
 
         // Process
         do {
-            System.out.print(i + ", ");
+            if (i == 320)
+                System.out.print(i);
+            else
+                System.out.print(", " + i);
             i -= 20;
         } while (i >= 160);
     }

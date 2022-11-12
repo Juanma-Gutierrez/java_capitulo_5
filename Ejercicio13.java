@@ -29,7 +29,7 @@ public class Ejercicio13 {
 
         // Input data
         for (int i = 0; i < 10; i++) {
-            System.out.print("Introduce un número: ");
+            System.out.print("Introduce el número " + (i+1) + ": ");
             num = sc.nextInt();
             if (num > 0)
                 pos++;

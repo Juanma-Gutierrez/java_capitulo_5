@@ -18,7 +18,10 @@ public class Ejercicio15 {
         // Var declarations
         int base;
         int pow;
-        int res;
+        long res;
+        int basePrint;
+        boolean powNeg;
+        String resOutput;
 
         // Scanner class
         Scanner sc = new Scanner(System.in);
@@ -28,17 +31,26 @@ public class Ejercicio15 {
         base = sc.nextInt();
         System.out.print("Introduce la potencia (entero positivo): ");
         pow = sc.nextInt();
+        powNeg = pow < 0 ? true : false;
+        res = 0;
+        resOutput = "";
+        basePrint = base;
+        base = base < 0 ? base *= (-1) : base; // Control base negativa
+        pow = powNeg ? pow *= (-1) : pow; // Control exponente negativo
 
         // Process
-        if (pow <= 0)
-            System.out.print("Has introducido una potencia no válida");
+        if (pow == 0) // Control exponente cero
+            System.out.print(basePrint + " elevado a " + pow + " es 1");
         else {
             for (int i = 1; i <= pow; i++) {
                 res = 1;
                 for (int j = 0; j < i; j++) {
                     res *= base;
                 }
-                System.out.println(base + " a la " + i + " potencia es " + res);
+                // Control de salida de negativos en base y exp
+                res = basePrint < 0 ? res *= (-1) : res;
+                resOutput = powNeg ? "-1/" + (res < 0 ? res *= (-1) : res) : String.valueOf(res);
+                System.out.printf("%d elevado a %d es %s\n", basePrint, powNeg ? i * (-1) : i, resOutput);
             }
         }
 
