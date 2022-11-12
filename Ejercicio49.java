@@ -42,9 +42,12 @@ public class Ejercicio49 {
 
             // CheckPrime
             prime = true;
-            for (int i = 2; i <= num / 2; i++) {
+            if (num <= 1)
+                prime = false;
+            for (int i = 2; i <= num / 2 && prime; i++) {
                 if (num % i == 0)
                     prime = false;
+
             }
             if (!prime) {
                 if (num > max)
@@ -58,10 +61,15 @@ public class Ejercicio49 {
         } while (!prime);
 
         // Output data
-        System.out.println("Ha introducido " + count + " números no primos.");
-        System.out.println("Máximo: " + max);
-        System.out.println("Mínimo: " + min);
-        System.out.printf("Media: %.2f", (float) sum / count);
+        if (count == 0)
+            System.out.println("No ha introducido ningún valor no primo");
+        else {
+
+            System.out.println("Ha introducido " + count + " números no primos.");
+            System.out.println("Máximo: " + max);
+            System.out.println("Mínimo: " + min);
+            System.out.printf("Media: %.2f", (float) sum / count);
+        }
 
         // Close scanner
         sc.close();
